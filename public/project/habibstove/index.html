@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+
+<head><script src="/lea_jean/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=lea_jean/livereload" data-no-instant defer></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="theme-name" content="academia-hugo"/>
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Léa Jean">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Fabrication d&#39;un chauffage à bois basé sur le principe d&#39;un Rocket Stove (ou poêle Dragon)">
+
+  
+  <link rel="alternate" hreflang="fr-fr" href="//localhost:1313/lea_jean/project/habibstove/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#60aaf3">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/lea_jean/css/academia.min.f54f4763011a3eb06a5bd1cd722e0af4.css">
+
+  
+
+  
+
+  
+
+  <link rel="manifest" href="/lea_jean/site.webmanifest">
+  <link rel="icon" type="image/png" href="/lea_jean/img/lyc.png">
+  <link rel="apple-touch-icon" type="image/png" href="/lea_jean/img/lyc.png">
+
+  <link rel="canonical" href="//localhost:1313/lea_jean/project/habibstove/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Léa JEAN">
+  <meta property="og:url" content="//localhost:1313/lea_jean/project/habibstove/">
+  <meta property="og:title" content="Habib&#39;Stove | Léa JEAN">
+  <meta property="og:description" content="Fabrication d&#39;un chauffage à bois basé sur le principe d&#39;un Rocket Stove (ou poêle Dragon)"><meta property="og:image" content="//localhost:1313/lea_jean/project/habibstove/featured.jpg">
+  <meta property="twitter:image" content="//localhost:1313/lea_jean/project/habibstove/featured.jpg"><meta property="og:locale" content="fr-fr">
+  
+  <meta property="article:published_time" content="2022-02-01T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2022-02-01T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Habib&#39;Stove | Léa JEAN</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1></h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+    <a class="navbar-brand flex flex-row align-self-center" href="/lea_jean"><img src="/lea_jean/img/lyc.png" alt="Léa JEAN" />
+    <span>Léa JEAN</span></a>
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/lea_jean/#about" ><span>Accueil</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/lea_jean/#experience" ><span>Parcours</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/lea_jean/#skills" ><span>Compétences</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/lea_jean/#projects" ><span>Réalisations</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/lea_jean/files/cv.pdf" ><span>Mon CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/lea_jean/#contact" ><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article article-project py-5" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container split-header">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+        <img class="img-fluid w-100" src="/lea_jean/project/habibstove/featured_hu3bbb9d197f59ea22bde57085c86b491e_81963_680x500_fill_q90_lanczos_smart1.jpg" itemprop="image" alt="">
+        <span
+          class="article-header-caption">Coupe transversale d&rsquo;un poêle de masse Rocket &ldquo;fixe&rdquo;, source <a href="https://fr.wikipedia.org/wiki/Fichier:Rocket-coupe-transversale.jpg">Wikipedia</a></span>
+    </div>
+    <div class="col-lg-8">
+      <h1 itemprop="name">Habib&#39;Stove</h1>
+
+      
+      
+
+
+
+<meta content="2022-02-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2022-02-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>01-02-2022</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+
+</div>
+
+
+  
+
+</div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://projets.cohabit.fr/redmine/projects/projets-du-fablab/wiki/Rocket-Stove" target="_blank" rel="noopener">
+    
+    Documentation en ligne
+  </a>
+
+
+</div>
+
+
+    </div>
+    
+    </div>
+  </div>
+</div>
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <h2 id="le-rocket-stovehttpsenwikipediaorgwikirocket_mass_heater">Le <a href="https://en.wikipedia.org/wiki/Rocket_mass_heater">Rocket Stove</a></h2>
+<p>Le poêle de masse rocket est un type de foyer à bois performant. Il est appelé ainsi à cause du son qu&rsquo;il produit en fonctionnant, semblable à celui d&rsquo;une tuyère de fusée.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img alt="Rocket Stove" src="/portfolios/lea-jean/img/rocket.jpg" title="Coupe transversale d&#39;un poêle de masse Rocket"></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Coupe transversale d&rsquo;un poêle de masse Rocket &ldquo;fixe&rdquo;, source <a href="https://fr.wikipedia.org/wiki/Fichier:Rocket-coupe-transversale.jpg">Wikipedia</a></strong></td>
+</tr>
+</tbody>
+</table>
+<p>Il s&rsquo;agit d&rsquo;un foyer semi-ouvert composé :</p>
+<ul>
+<li>d&rsquo;un orifice d&rsquo;alimentation permettant l&rsquo;arrivée d&rsquo;air et la mise en place du combustible</li>
+<li>d&rsquo;une chambre de combustion isolée;</li>
+<li>d&rsquo;une cheminée d&rsquo;évacuation isolée.
+L&rsquo;isolation du foyer est ainsi responsable de l&rsquo;excellente combustion du bois, produisant le son caractéristique d&rsquo;une fusée.</li>
+</ul>
+<h2 id="le-habibstove">Le Habib&rsquo;Stove</h2>
+<h3 id="description">Description</h3>
+<p>Librement inspirée, cette variante de conception du poêle vise à récupérer la chaleur évacuée vers la cheminée (serpentin en cuivre) pour pouvoir stocker cette énergie sous forme d’eau chaude et réguler un plancher chauffant. Pour simplifier la fabrication, le socle est moulé en béton réfractaire : ciment Fondu + perlite.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img alt="Schéma descriptif du Habib&rsquo;Stove" src="/portfolios/lea-jean/img/Schema-description-habib-stove.png" title="Schéma descriptif du Habib&#39;Stove"></td>
+<td style="text-align:center"><img alt="Schéma du parcours des flux" src="/portfolios/lea-jean/img/Schema-flux-habib-stove.png" title="Schéma du parcours des flux du Habib&#39;Stove"></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Schéma descriptif du Habib&rsquo;Stove</strong></td>
+<td style="text-align:center"><strong>Schéma du parcours des flux du Habib&rsquo;Stove</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="réalisation">Réalisation</h3>
+<p>La structure en béton réfractaire se moule avec des morceaux de polystyrène. Pour cela, il convient de découper à la laser des guides en MDF d&rsquo;épaisseur 8 mm, voire plus. Pour chaque forme, il faut deux guides identiques. Ensuite, on les maintient de part et d&rsquo;autre d&rsquo;un brut de polystyrène et on découpe au fil chaud en suivant la forme des guides. On découpe également à l&rsquo;épaisseur souhaité si on n&rsquo;a pas de brut de la bonne épaisseur.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img alt="Découpe" src="/portfolios/lea-jean/img/decoupe-hab2.gif" title="Morceau de polystyrène découpé par un fil chaud en suivant la forme des guides"></td>
+<td style="text-align:center"><img alt="Découpe" src="/portfolios/lea-jean/img/decoupe-hab1.gif" title="Morceau de polystyrène découpé par un fil chaud en épaisseur"></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Morceau de polystyrène découpé par un fil chaud en suivant la forme des guides</strong></td>
+<td style="text-align:center"><strong>Morceau de polystyrène découpé par un fil chaud en épaisseur</strong></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img alt="Découpe" src="/portfolios/lea-jean/img/guides3.png" title="Guides en MDF découpés à la découpe laser"></td>
+<td style="text-align:center"><img alt="Découpe" src="/portfolios/lea-jean/img/poly-guides.png" title="Morceau de polystyrène découpé au fil chaud suivant la forme de guides"></td>
+<td style="text-align:center"><img alt="Découpe" src="/portfolios/lea-jean/img/poly3.png" title="Morceaux de polystyrène découpés au fil chaud"></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Guides en MDF découpés à la découpe laser</strong></td>
+<td style="text-align:center"><strong>Morceau de polystyrène découpé au fil chaud suivant la forme de guides</strong></td>
+<td style="text-align:center"><strong>Morceaux de polystyrène découpés au fil chaud</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Des &ldquo;joues&rdquo;, aussi découpées au fil chaud, sont collées sur &ldquo;l&rsquo;escargot&rdquo; en polystyrène. Cela permettra à l&rsquo;air de passer. Cet air va se réchauffer dans la paroi et permettre au gaz qui n&rsquo;est pas pas assez chaud pour brûler de s&rsquo;enflammer.
+Des &ldquo;haricots&rdquo; permettront de faire des poignées qui rendront transportable la structure.</p>
+<p>La structure en béton réfractaire est stockée dans une boîte découpée à la laser dans du MDF 3mm. Les dessins des pièces de la boîte sont réalisés à partir d&rsquo;un <a href="https://www.festi.info/boxes.py/">générateur en ligne</a> puis modifiés suivant nos besoins sur Inkscape. On réalise également des barrettes qui sont vissées sur les parois de la boîte à la jonction des différentes parties pour renforcer l&rsquo;assemblage. La boîte peut être recouverte d&rsquo;un plastique pour protéger le bois de l&rsquo;eau.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img alt="Boîte" src="/portfolios/lea-jean/img/hs-1.jpg" title="Montage de la boîte"></td>
+<td style="text-align:center"><img alt="Boîte" src="/portfolios/lea-jean/img/hs-2.jpg" title="Boîte assemblée et simulation de la disposition des morceaux de polystyrène"></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Montage de la boîte</strong></td>
+<td style="text-align:center"><strong>Boîte assemblée et simulation de la disposition des morceaux de polystyrène</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Une fois les pièces en polystyrène prêtes et la boîte assemblée, on va pouvoir préparer le béton.</p>
+<p>Le béton réfractaire est fait à partir d&rsquo;un mélange de vermiculite (ou perlite), de pouzzolane et de ciment fondu. On y ajoute des fibres pour renforcer le mélange et de l&rsquo;eau. Le ratio correspond à du 1 pour 3 : 1 ciment pour 3 roches volcaniques (2 perlite + 1 pouzzolane). Le tout est mélangé avec malaxeur, l&rsquo;eau est ajoutée au fur et à mesure suivant le besoin.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+<th style="text-align:center"></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img alt="Mélange" src="/portfolios/lea-jean/img/hs-3.jpg" title="Pouzzolane"></td>
+<td style="text-align:center"><img alt="Mélange" src="/portfolios/lea-jean/img/hs-4.jpg" title="Vermiculite ou perlite"></td>
+<td style="text-align:center"><img alt="Mélange" src="/portfolios/lea-jean/img/hs-5.jpg" title="Ajout des ingrédients dans un récipient"></td>
+<td style="text-align:center"><img alt="Mélange" src="/portfolios/lea-jean/img/hs-6.jpg" title="Mélange des indrédients"></td>
+<td style="text-align:center"><img alt="Mélange" src="/portfolios/lea-jean/img/hs-7.jpg" title="Ajout de l&#39;eau lors du mélange"></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Pouzzolane</strong></td>
+<td style="text-align:center"><strong>Vermiculite ou perlite</strong></td>
+<td style="text-align:center"><strong>Ajout des ingrédients dans un récipient</strong></td>
+<td style="text-align:center"><strong>Mélange des indrédients</strong></td>
+<td style="text-align:center"><strong>Ajout de l&rsquo;eau lors du mélange</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Quand le mélange est prêt, on le verse petit à petit dans la boîte en mettant en parallèle les morceaux de polystyrène. Ainsi, le mélange se moule autour du polystyrène. Il faut garder en tête que la structure est moulée à l&rsquo;envers : le socle de la boîte correspond au haut de la structure. On attend ensuite que le béton se solidifie.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><img alt="Béton" src="/portfolios/lea-jean/img/hs-8.jpg" title="Pose du mélange et du polystyrène dans la boîte"></td>
+<td style="text-align:center"><img alt="Béton" src="/portfolios/lea-jean/img/hs-9.jpg" title="Boîte qui accueille le béton réfractaire"></td>
+</tr>
+<tr>
+<td style="text-align:center"><strong>Pose du mélange et du polystyrène dans la boîte</strong></td>
+<td style="text-align:center"><strong>Boîte qui accueille le béton réfractaire</strong></td>
+</tr>
+</tbody>
+</table>
+
+    </div>
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/lea_jean/tags/fab/">fab</a>
+  
+</div>
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    </div>
+
+    
+    
+    
+    </div>
+  </div>
+</article>
+
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+    <script id="dsq-count-scr" src="//themefisher-template.disqus.com/count.js" async></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "",
+        'results': "",
+        'no_results': ""
+      };
+      const content_type = {
+        'post': "",
+        'project': "",
+        'publication' : "",
+        'talk' : ""
+        };
+    </script>
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/lea_jean/js/academia.min.6c2ba2801d406881b3c2277043cedd76.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        
+        <p class="mb-0" style="text-align:center;">
+          Copyright © 2024 &middot; 
+          Site réalisé à partir du thème :
+          <a href="https://themes.gohugo.io/themes/academia-hugo/" target="_blank" rel="noopener">Academia Hugo</a>.
+        </p>
+        <p style="text-align:center;">Code source modifié par <i style="color:#ffb92c;">Léa JEAN</i> et <i
+          style="color:#ffb92c;">Habib BELARIBI</i>.</p>
+        <p style="text-align:center;">Style modifié par <i style="color:#ffb92c;">Adélaïde LOUIS</i></p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right mb-0">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/l%c3%a9a-jean-078361200/" target="_blank" rel="noopener" title="Mon Linkedin"><i
+              class="fab fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/Sakki3" target="_blank" rel="noopener" title="Mon Github"><i
+              class="fab fa-github" aria-hidden="true"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

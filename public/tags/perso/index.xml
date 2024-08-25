@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Perso on Léa JEAN</title>
+    <link>//localhost:1313/lea_jean/tags/perso/</link>
+    <description>Recent content in Perso on Léa JEAN</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>fr-fr</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="//localhost:1313/lea_jean/tags/perso/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lampe en bois personnalisée</title>
+      <link>//localhost:1313/lea_jean/project/lampes/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/lampes/</guid>
+      <description>&lt;h3 id=&#34;principe&#34;&gt;Principe&lt;/h3&gt;
+&lt;p&gt;La forme des lampes est basée sur un parallélépipède rectangle avec des coins arrondis. Elles sont composées chacune d&amp;rsquo;un socle et d&amp;rsquo;une plaque pliable qui forme l&amp;rsquo;abat-jour. Ces deux pièces s&amp;rsquo;emboîtent l&amp;rsquo;une dans l&amp;rsquo;autre par le moyen de dents. Le tout est réalisé en MDF (médium). Pour laisser passer la lumière, des trous de formes personnalisées sont découpées sur les parois de l&amp;rsquo;abat-jour. On place enfin une guirlande lumineuse à l&amp;rsquo;intérieur de la structure en bois pour passer d&amp;rsquo;un pot à une lampe.&lt;/p&gt;
+&lt;h3 id=&#34;génération-du-dessin-de-la-structure-en-bois&#34;&gt;Génération du dessin de la structure en bois&lt;/h3&gt;
+&lt;p&gt;La structure des lampes est réalisée à partir d&amp;rsquo;un &lt;a href=&#34;https://www.festi.info/boxes.py/RoundedBox?language=fr&#34;&gt;générateur de boîte&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;/!\ &lt;em&gt;Les mesures données sont en millimètres.&lt;/em&gt; /!\&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Lampe 1&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Lampe 2&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Dimensions (intérieures)&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;150x150x200&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;150x150x150&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Rayon&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;20&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Epaisseur&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Brûlage&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Un fichier en &lt;strong&gt;.svg&lt;/strong&gt; est ensuite généré.&lt;/p&gt;
+&lt;h3 id=&#34;design&#34;&gt;Design&lt;/h3&gt;
+&lt;p&gt;Afin de laisser passer la lumière, l&amp;rsquo;abat-jour est parsemé de trous de formes personnalisées. La première lampe a une décoration florale et féérique, tandis que la deuxième représente d&amp;rsquo;avantage la culture dite &amp;ldquo;geek&amp;rdquo;. Par ailleurs, les visages des personnes qui recevront les lampes sont gravées sur certaines faces.&lt;/p&gt;
+&lt;p&gt;Les visages gravés et les fleurs et pétales sont dessinés par l&amp;rsquo;auteur de ce projet via &lt;a href=&#34;https://krita.org/fr/&#34;&gt;Krita&lt;/a&gt;, un logiciel de dessin. Le reste des dessins sont pris sur Internet. Certains de ces dessins ont été modifiés avec &lt;a href=&#34;https://inkscape.org/fr/&#34;&gt;Inkscape&lt;/a&gt; pour obtenir un orifice d&amp;rsquo;une forme adéquate.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;Exemple d&amp;rsquo;une image modifiée :&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;lampe1&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/fee.jpg&#34; title=&#34;Image d&amp;#39;origine&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;lampe1&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/fee3.png&#34; title=&#34;Image modifiée&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;a href=&#34;https://m.media-amazon.com/images/I/61yB8rinC2L._AC_SS450_.jpg&#34;&gt;Image d&amp;rsquo;origine&lt;/a&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Image modifiée&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Toutes les décorations sont importées sur le fichier contenant le dessin de la structure en bois puis placées. Ces dessins sont préparés pour pouvoir passer à la découpe laser.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;lampe1&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/fichier-decoupe-lampe.png&#34; title=&#34;Fichier de découpe de l&amp;#39;abat-jour de la lampe 1&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;lampe1&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/fichier-decoupe-lampe2.png&#34; title=&#34;Fichier de découpe de l&amp;#39;abat-jour de la lampe 2&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Fichier de découpe de l&amp;rsquo;abat-jour de la lampe 1&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;Fichier de découpe de l&amp;rsquo;abat-jour de la lampe 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;fabrication&#34;&gt;Fabrication&lt;/h2&gt;
+&lt;p&gt;La fabrication se fait à la découpe laser avec des plaques de MDF d&amp;rsquo;épaisseur 3 mm.&lt;/p&gt;
+&lt;p&gt;Une fois la préparation des fichiers terminée, on prépare la machine, règle les paramètres puis on lance la découpe / gravure (~ 30-45 minutes de découpe/gravure pour 1 lampe).&lt;/p&gt;
+&lt;p&gt;Les formes découpées sont enlevées soigneusement et mises de côté. Un message est gravé au pyrograveur sur les socles. Ensuite, les structures en bois sont assemblées. On utilise les chutes des formes découpées pour fixer les abat-jour. Ainsi, ces chutes sont collées à la jonction des deux extrémités de ceux-ci.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;img alt=&#34;lampe1&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/lampefam1.jpg&#34; title=&#34;Lampe 1&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img alt=&#34;lampe1&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/lampefam2.jpg&#34; title=&#34;Lampe 1&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Lampe 1&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;fabriquée&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Enfin, on insert la guirlande lumineuse à l&amp;rsquo;intérieur de la structure et on l&amp;rsquo;arrange. Sont utilisées ici des guirlandes à 50 leds.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;img alt=&#34;lampe1&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/lampefam3.jpg&#34; title=&#34;Lampe 1&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img alt=&#34;lampe1&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/lampefam4.jpg&#34; title=&#34;Lampe 1&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;Lampe 1&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;avec la guirlande&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Boîte à bijoux</title>
+      <link>//localhost:1313/lea_jean/project/boite-a-bijoux/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/boite-a-bijoux/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

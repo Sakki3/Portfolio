@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lycee on Léa JEAN</title>
+    <link>//localhost:1313/lea_jean/tags/lycee/</link>
+    <description>Recent content in Lycee on Léa JEAN</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>fr-fr</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="//localhost:1313/lea_jean/tags/lycee/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sunny, le tracker solaire</title>
+      <link>//localhost:1313/lea_jean/project/sunny/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/sunny/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Sunny le tracker solaire&lt;/strong&gt; est un projet qui est né en 2019 dans le cadre d&amp;rsquo;un projet en groupe pour valider les compétences acquises dans la spécialité &lt;em&gt;Informatique et Créations Numériques&lt;/em&gt; de Terminale S SI. Ainsi, avec deux autres collègues, Adélaïde LOUIS et Yohann VERNHES, nous avons décidé de réaliser un tracker solaire.&lt;/p&gt;
+&lt;p&gt;Notre projet s&amp;rsquo;est construit sur deux axes : d&amp;rsquo;une part la &lt;em&gt;réalisation de Sunny&lt;/em&gt; et d&amp;rsquo;autre part la &lt;em&gt;construction d&amp;rsquo;un site de présentation&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Nous avons d&amp;rsquo;abord fait des recherches sur le fonctionnement d&amp;rsquo;un tracker solaire et sur la trajectoire du soleil. Après avoir discuté sur comment construire le tracker avec nos moyens, nous avons dégagé trois méthodes de fonctionnement.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;La première méthode consiste à faire fonctionner le tracker avec des photorésistances&lt;/strong&gt; Le système est équipé de photorésistances. Ainsi, pour suivre les positions du soleil, une pièce projette son ombre sur une plaque équipée de photorésistances permettant de comparer les valeurs d’intensité lumineuse reçues pour savoir où se trouve l’ombre.
+Pour cette méthode, nous nous sommes renseignés sur le fonctionnement des photorésistances. Nous avons ensuite construit le tracker avec du carton et programmé le système avec une Arduino Uno.&lt;/p&gt;
+&lt;p&gt;Les deux méthodes suivantes n&amp;rsquo;ont pas pu êtres réalisées physiquement.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;La deuxième méthode consiste à faire fonctionner le tracker en utilisant les équations de la trajectoire du Soleil.&lt;/strong&gt; On équipe ici le système  d&amp;rsquo;un GPS. Pour suivre les positions du soleil, le système s’appuie sur un algorithme qui calcule la position du soleil en fonction de son positionnement spatial et temporel. Pour mettre en oeuvre cette méthode, nous avons d&amp;rsquo;abord cherché comment calculer la trajectoire du soleil en fonction du temps puis nous avons fait des recherches approfondies pour comprendre les équations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;La troisième méthode consiste à faire fonctionner le tracker en utilisant une caméra.&lt;/strong&gt; On équipe le système d&amp;rsquo;une caméra qui serait orientée vers le ciel. Pour savoir où est le soleil, il faut faire en sorte que le point le plus lumineux que la caméra voit, soit toujours au centre.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Le projet est présenté sur ce site : &lt;a href=&#34;https://lostsh.github.io/sunny/index.html#presentation&#34;&gt;site de présentation&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>TPE - Siège éjectable</title>
+      <link>//localhost:1313/lea_jean/project/tpe/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/tpe/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

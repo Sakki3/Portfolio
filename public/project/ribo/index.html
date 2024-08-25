@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+
+<head><script src="/lea_jean/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=lea_jean/livereload" data-no-instant defer></script>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academia 4.3.1">
+  <meta name="theme-name" content="academia-hugo"/>
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Léa Jean">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Un professeur de l&#39;école d&#39;ingénieur Sciences Agro nous a demandé de refaire une pièce d&#39;un Ribolyser, une machine d&#39;extraction d&#39;ADN.">
+
+  
+  <link rel="alternate" hreflang="fr-fr" href="//localhost:1313/lea_jean/project/ribo/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#60aaf3">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/lea_jean/css/academia.min.f54f4763011a3eb06a5bd1cd722e0af4.css">
+
+  
+
+  
+
+  
+
+  <link rel="manifest" href="/lea_jean/site.webmanifest">
+  <link rel="icon" type="image/png" href="/lea_jean/img/lyc.png">
+  <link rel="apple-touch-icon" type="image/png" href="/lea_jean/img/lyc.png">
+
+  <link rel="canonical" href="//localhost:1313/lea_jean/project/ribo/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Léa JEAN">
+  <meta property="og:url" content="//localhost:1313/lea_jean/project/ribo/">
+  <meta property="og:title" content="Ribolyser - pièce à remplacer | Léa JEAN">
+  <meta property="og:description" content="Un professeur de l&#39;école d&#39;ingénieur Sciences Agro nous a demandé de refaire une pièce d&#39;un Ribolyser, une machine d&#39;extraction d&#39;ADN."><meta property="og:image" content="//localhost:1313/lea_jean/project/ribo/featured.png">
+  <meta property="twitter:image" content="//localhost:1313/lea_jean/project/ribo/featured.png"><meta property="og:locale" content="fr-fr">
+  
+  <meta property="article:published_time" content="2022-01-13T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2022-01-13T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Ribolyser - pièce à remplacer | Léa JEAN</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" class="dark">
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1></h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+    <a class="navbar-brand flex flex-row align-self-center" href="/lea_jean"><img src="/lea_jean/img/lyc.png" alt="Léa JEAN" />
+    <span>Léa JEAN</span></a>
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/lea_jean/#about" ><span>Accueil</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/lea_jean/#experience" ><span>Parcours</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/lea_jean/#skills" ><span>Compétences</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/lea_jean/#projects" ><span>Réalisations</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/lea_jean/files/cv.pdf" ><span>Mon CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/lea_jean/#contact" ><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+
+        
+
+        
+
+        
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article article-project py-5" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container split-header">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+        <img class="img-fluid w-100" src="/lea_jean/project/ribo/featured_hu402086891728ea098f19eef04a911c32_4032609_680x500_fill_q90_lanczos_smart1_3.png" itemprop="image" alt="">
+        <span
+          class="article-header-caption">Photo de la pièce en polypropylène à remplacer</span>
+    </div>
+    <div class="col-lg-8">
+      <h1 itemprop="name">Ribolyser - pièce à remplacer</h1>
+
+      
+      
+
+
+
+<meta content="2022-01-13 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2022-01-13 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>13-01-2022</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+
+</div>
+
+
+  
+
+</div>
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://projets.cohabit.fr/redmine/projects/projets-du-fablab/wiki/RiboLyser" target="_blank" rel="noopener">
+    
+    Documentation publique
+  </a>
+
+
+</div>
+
+
+    </div>
+    
+    </div>
+  </div>
+</div>
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <h2 id="contexte">Contexte</h2>
+<p>Le Ribolyser est une machine d&rsquo;extraction d&rsquo;ADN utilisée par l&rsquo;école d&rsquo;ingénieur Bordeaux Sciences Agro. Cette machine doit servir sur un projet de génétique de l&rsquo;Abeille Noire du Sud-Ouest qui fait l&rsquo;objet d&rsquo;un programme de conservation par le Conservatoire des Races d&rsquo;Aquitaine qu&rsquo;ils accueillent dans leurs locaux. Régulièrement des abeilles sont prélevées dans des ruchers expérimentaux pour suivre la pollution génétique par l&rsquo;abeille domestique. Leur ADN doit être extrait pour qu&rsquo;on puisse suivre certains gènes qui témoignent de leur lignée maternelle. Lors du processus d&rsquo;extraction, la lyse mécanique doit être optimale. Cela peut être fait à la main mais s&rsquo;il y a un trop grand nombre d&rsquo;échantillons, c&rsquo;est la tendinite assurée et/ou l&rsquo;apparition de variabilité due à l&rsquo;opérateur. Passer par une machine permet de lyser mécaniquement de manière standardisée. Les enseignants ont accès à des machines dernier cri mais pas les étudiants, or ce sera leur projet de standardiser l&rsquo;extraction d&rsquo;ADN d&rsquo;abeille.</p>
+<p>Les étudiants devront donc utiliser le FastPrep 120 Hybaid Ribolyser détenu par l&rsquo;école, cependant l&rsquo;une des pièces qui doit supporter beaucoup de contrainte est cassée. Un enseignant a donc demandé au Fablab Coh@bit de refaire cette pièce pour que les étudiants puissent utiliser la machine.</p>
+<h2 id="début-du-projet">Début du projet</h2>
+<p>Initialement, l&rsquo;enseignant qui a contacté le Fablab voulait retirer la pièce de la machine et nous l&rsquo;amener pour qu&rsquo;on puisse la refaire. Or, la pièce éatant coincée, nous sommes directement allé sur place pour voir quel est le problème, discuter des solutions, et prendre des photos et des mesures.</p>
+<p>La pièce est maintenue par trois vis. Deux d&rsquo;entre elles ont été retirées avec succès mais la dernière est restée coincée. Pour cause, ces vis ont été rodées sur une partie du filetage pour qu&rsquo;elles ne se dévissent pas lorsque la machine est en marche. La dernière vis est ainsi bloquée au niveau du deuxième filet.</p>
+<p>La machine a directement été déplacée au Fablab pour pouvoir plus confortablement sortir la pièce avec les moyens nécessaires à disposition.</p>
+<h2 id="extraction-de-la-pièce-à-remplacer">Extraction de la pièce à remplacer</h2>
+<p>Lorsque nous étions dans les locaux de Bordeaux Sciences Agro, nous avons contraint la pièce pour déboulonner au-dessous et pouvoir sortir le disque auquel la pièce est fixé, pour finalement pouvoir enlerver la vis plus facilement. Le risque d&rsquo;abîmer plus la pièce a été pris car cette dernière ayant une forme simple et répétitive, nous avons jugé que ce n&rsquo;était pas un problème pour la modélisation de celle-ci.</p>
+<p><img alt="La pièce à remplacer est coincée par la vis" src="/portfolios/lea-jean/img/ribo1.jpg" title="La pièce à remplacer est coincée par la vis"></p>
+<p>Cependant, l&rsquo;opération n&rsquo;a pas fonctionné car l&rsquo;axe tourne simultanément. Il faut donc le maintenir lors du dé-assemblage. Les moyens sur place et le temps nous limitant, la décision a été prise d&rsquo;amener la machine dans les locaux du Fablab afin de pouvoir prendre le temps d&rsquo;extraire la pièce en essayant de ne pas trop endommager les vis.</p>
+<p>Nous avons dévissé la pièce verte du carter ce qui nous a permis de sortir l&rsquo;ensemble motorisé et ainsi de maintenir l&rsquo;axe du rotor pour déboulonner au dessus de la pièce bleue. Nous avons ensuite détaché le ressort de la pièce bleue puis la pièce bleue de l&rsquo;axe du rotor.</p>
+<p><img alt="Ensemble motorisé" src="/portfolios/lea-jean/img/ribo2.jpg" title="Ensemble motorisé">
+<img alt="Pièce bleue et pièce à remplacer extraites" src="/portfolios/lea-jean/img/ribo3.jpg" title="Pièce bleue et pièce à remplacer extraites (vue du dessus à gauche et du dessous à droite)"></p>
+<p>La pièce à remplacer n&rsquo;étant plus fixée à la machine et les éléments autour ayant été limités, nous avons une meilleure vision de la manière de procéder pour l&rsquo;extraction de cette pièce et cette opération sera menée de manière plus confortable avec moins de risques d&rsquo;endommager une pièce.</p>
+<p>Après observation, il a été constaté que le pas de vis est endommagé. La vis a été sciée et la pièce libérée.</p>
+<p><img alt="Pièce à remplacer" src="/portfolios/lea-jean/img/ribo4.jpg" title="Pièce à remplacer"></p>
+<p>Pour remplacer la vis endommagée, ses dimensions ont été prises. Nous avons pu ensuite en commander de nouvelles.</p>
+<p><img alt="Vis" src="/portfolios/lea-jean/img/visribo.jpg" title="Dessin de définition de la vis (à gauche) et nouvelles vis commandée (à droite)"></p>
+<p>Le diamètre de la tête de la nouvelle vis est supérieur de 1 mm au diamètre requis. Au tour conventionnel, on effectue un chariotage de la tête de vis pour l&rsquo;ajuster. On chariote ensuite le filet vers le bout de la vis en utilisant un outil à tronçonner. Lors du test de la vis dans l&rsquo;assemblage, il est observé qu&rsquo;il faut forcer pour visser. On suppose que le problème vient du pas de vis. Ainsi, on procède à l&rsquo;ajustage à l&rsquo;aide d&rsquo;un taraud pour la vis et d&rsquo;une filière pour le trou qui l&rsquo;accueillera. Un test est de nouveau effectué et l&rsquo;assemblage est validé. Enfin, on colle le capuchon orange à la vis.</p>
+<h2 id="modélisation-de-la-pièce-à-remplacer">Modélisation de la pièce à remplacer</h2>
+<p>Il s&rsquo;agit d&rsquo;une pièce qui sera très contrainte et qui doit résister en fatigue. Le département SGM de l&rsquo;IUT de Bordeaux nous a ainsi fourni des bruts de polyéthylène.</p>
+<p><img alt="Brut" src="/portfolios/lea-jean/img/brutribo.jpg" title="Bruts fournis par le département SGM"></p>
+<p>Il convient de d&rsquo;abord modéliser sur FreeCAD la pièce après avoir pris les mesures nécessaires sur la pièce existante.</p>
+<p><img alt="Modélisation" src="/portfolios/lea-jean/img/piece-poly-V2.png" title="Modélisation de la pièce à remplacer avec FreeCAD (vue du dessus à gauche et de dessous à droite)"></p>
+<p>La première modélisation n&rsquo;a pas été faite de manière optimale. Ainsi, après avoir reçu des conseils d&rsquo;une personne expérimentée, une deuxième modélisation de la pièce plus propre est entreprise puis le paramétrage de l&rsquo;usinage est effectué.</p>
+<h2 id="réalisation-de-la-pièce-à-remplacer">Réalisation de la pièce à remplacer</h2>
+<p>Pour commencer, de premiers tests sont entrepris afin de vérifier les trajectoires outils programmées et l&rsquo;enchainement des opérations. Pour limiter les coûts et acheter uniquement la quantité de matière nécessaire, les tests ont été réalisés sur du MDF (médium).</p>
+<p>En parallèle, on imprime la pièce avec une imprimante 3D à filament. Pour cause, pouvoir imprimer la pièce rend sa fabrication plus accessible. On teste ainsi une impression en PETG.</p>
+
+    </div>
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/lea_jean/tags/fab/">fab</a>
+  
+</div>
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+    </div>
+
+    
+    
+    
+    </div>
+  </div>
+</article>
+
+
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    
+    <script id="dsq-count-scr" src="//themefisher-template.disqus.com/count.js" async></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "",
+        'results': "",
+        'no_results': ""
+      };
+      const content_type = {
+        'post': "",
+        'project': "",
+        'publication' : "",
+        'talk' : ""
+        };
+    </script>
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/lea_jean/js/academia.min.6c2ba2801d406881b3c2277043cedd76.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        
+        <p class="mb-0" style="text-align:center;">
+          Copyright © 2024 &middot; 
+          Site réalisé à partir du thème :
+          <a href="https://themes.gohugo.io/themes/academia-hugo/" target="_blank" rel="noopener">Academia Hugo</a>.
+        </p>
+        <p style="text-align:center;">Code source modifié par <i style="color:#ffb92c;">Léa JEAN</i> et <i
+          style="color:#ffb92c;">Habib BELARIBI</i>.</p>
+        <p style="text-align:center;">Style modifié par <i style="color:#ffb92c;">Adélaïde LOUIS</i></p>
+      </div>
+      <div class="col-md-6">
+        <ul class="list-inline network-icon text-right mb-0">
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/l%c3%a9a-jean-078361200/" target="_blank" rel="noopener" title="Mon Linkedin"><i
+              class="fab fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/Sakki3" target="_blank" rel="noopener" title="Mon Github"><i
+              class="fab fa-github" aria-hidden="true"></i></a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> 
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> 
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
