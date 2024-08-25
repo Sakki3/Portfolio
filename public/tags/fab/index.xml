@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fab on Léa JEAN</title>
+    <link>//localhost:1313/lea_jean/tags/fab/</link>
+    <description>Recent content in Fab on Léa JEAN</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>fr-fr</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="//localhost:1313/lea_jean/tags/fab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Accueil du public (FabLab)</title>
+      <link>//localhost:1313/lea_jean/project/acc-fablab/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/acc-fablab/</guid>
+      <description>&lt;p&gt;Le Fablab Coh@bit est un espace collaboratif de fabrication numérique se trouvant sur le campus de Gradignan de l&amp;rsquo;IUT de Bordeaux. L&amp;rsquo;association est ouverte à tous les particuliers souhaitant utiliser ses ressources.&lt;/p&gt;
+&lt;p&gt;La mission du service civique effectué a pour nature l&amp;rsquo;&lt;strong&gt;accueil du public&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Cela consiste d&amp;rsquo;une part à la &lt;strong&gt;formation&lt;/strong&gt; des adhérents ou étudiants aux &lt;strong&gt;machines&lt;/strong&gt; (découpe laser, imprimante 3D, fraiseuse numérique Charly Robot) et aux &lt;strong&gt;logiciels&lt;/strong&gt; utilisés au Fablab (FreeCAD, Ultimaker Cura, Prusa Slicer, Inkscape). La formation des machines prend ainsi en compte la &lt;strong&gt;préparation des fichiers&lt;/strong&gt; pour qu&amp;rsquo;ils soient utilisables pour la machines, par exemple la préparation des fichiers de découpe pour la découpe laser.&lt;/p&gt;
+&lt;p&gt;D&amp;rsquo;autre part, il s&amp;rsquo;agit d&amp;rsquo;accompagner les adhérents dans leurs projets en les aidant dans l&amp;rsquo;utilisation des machines ou bien en leur apportant d&amp;rsquo;autres connaissances techniques par exemple dans le domaine de la mécanique ou sur la faisabilité de leur projet, si besoin.&lt;/p&gt;
+&lt;p&gt;La ligne directrice de cette mission est principalement la &lt;strong&gt;transmission des connaissances&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Boîte à bijoux</title>
+      <link>//localhost:1313/lea_jean/project/boite-a-bijoux/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/boite-a-bijoux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Habib&#39;Stove</title>
+      <link>//localhost:1313/lea_jean/project/habibstove/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/habibstove/</guid>
+      <description>&lt;h2 id=&#34;le-rocket-stovehttpsenwikipediaorgwikirocket_mass_heater&#34;&gt;Le &lt;a href=&#34;https://en.wikipedia.org/wiki/Rocket_mass_heater&#34;&gt;Rocket Stove&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Le poêle de masse rocket est un type de foyer à bois performant. Il est appelé ainsi à cause du son qu&amp;rsquo;il produit en fonctionnant, semblable à celui d&amp;rsquo;une tuyère de fusée.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Rocket Stove&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/rocket.jpg&#34; title=&#34;Coupe transversale d&amp;#39;un poêle de masse Rocket&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Coupe transversale d&amp;rsquo;un poêle de masse Rocket &amp;ldquo;fixe&amp;rdquo;, source &lt;a href=&#34;https://fr.wikipedia.org/wiki/Fichier:Rocket-coupe-transversale.jpg&#34;&gt;Wikipedia&lt;/a&gt;&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Il s&amp;rsquo;agit d&amp;rsquo;un foyer semi-ouvert composé :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;d&amp;rsquo;un orifice d&amp;rsquo;alimentation permettant l&amp;rsquo;arrivée d&amp;rsquo;air et la mise en place du combustible&lt;/li&gt;
+&lt;li&gt;d&amp;rsquo;une chambre de combustion isolée;&lt;/li&gt;
+&lt;li&gt;d&amp;rsquo;une cheminée d&amp;rsquo;évacuation isolée.
+L&amp;rsquo;isolation du foyer est ainsi responsable de l&amp;rsquo;excellente combustion du bois, produisant le son caractéristique d&amp;rsquo;une fusée.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;le-habibstove&#34;&gt;Le Habib&amp;rsquo;Stove&lt;/h2&gt;
+&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;Librement inspirée, cette variante de conception du poêle vise à récupérer la chaleur évacuée vers la cheminée (serpentin en cuivre) pour pouvoir stocker cette énergie sous forme d’eau chaude et réguler un plancher chauffant. Pour simplifier la fabrication, le socle est moulé en béton réfractaire : ciment Fondu + perlite.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Schéma descriptif du Habib&amp;rsquo;Stove&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/Schema-description-habib-stove.png&#34; title=&#34;Schéma descriptif du Habib&amp;#39;Stove&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Schéma du parcours des flux&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/Schema-flux-habib-stove.png&#34; title=&#34;Schéma du parcours des flux du Habib&amp;#39;Stove&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Schéma descriptif du Habib&amp;rsquo;Stove&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Schéma du parcours des flux du Habib&amp;rsquo;Stove&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;réalisation&#34;&gt;Réalisation&lt;/h3&gt;
+&lt;p&gt;La structure en béton réfractaire se moule avec des morceaux de polystyrène. Pour cela, il convient de découper à la laser des guides en MDF d&amp;rsquo;épaisseur 8 mm, voire plus. Pour chaque forme, il faut deux guides identiques. Ensuite, on les maintient de part et d&amp;rsquo;autre d&amp;rsquo;un brut de polystyrène et on découpe au fil chaud en suivant la forme des guides. On découpe également à l&amp;rsquo;épaisseur souhaité si on n&amp;rsquo;a pas de brut de la bonne épaisseur.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Découpe&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/decoupe-hab2.gif&#34; title=&#34;Morceau de polystyrène découpé par un fil chaud en suivant la forme des guides&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Découpe&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/decoupe-hab1.gif&#34; title=&#34;Morceau de polystyrène découpé par un fil chaud en épaisseur&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Morceau de polystyrène découpé par un fil chaud en suivant la forme des guides&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Morceau de polystyrène découpé par un fil chaud en épaisseur&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Découpe&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/guides3.png&#34; title=&#34;Guides en MDF découpés à la découpe laser&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Découpe&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/poly-guides.png&#34; title=&#34;Morceau de polystyrène découpé au fil chaud suivant la forme de guides&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Découpe&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/poly3.png&#34; title=&#34;Morceaux de polystyrène découpés au fil chaud&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Guides en MDF découpés à la découpe laser&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Morceau de polystyrène découpé au fil chaud suivant la forme de guides&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Morceaux de polystyrène découpés au fil chaud&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Des &amp;ldquo;joues&amp;rdquo;, aussi découpées au fil chaud, sont collées sur &amp;ldquo;l&amp;rsquo;escargot&amp;rdquo; en polystyrène. Cela permettra à l&amp;rsquo;air de passer. Cet air va se réchauffer dans la paroi et permettre au gaz qui n&amp;rsquo;est pas pas assez chaud pour brûler de s&amp;rsquo;enflammer.
+Des &amp;ldquo;haricots&amp;rdquo; permettront de faire des poignées qui rendront transportable la structure.&lt;/p&gt;
+&lt;p&gt;La structure en béton réfractaire est stockée dans une boîte découpée à la laser dans du MDF 3mm. Les dessins des pièces de la boîte sont réalisés à partir d&amp;rsquo;un &lt;a href=&#34;https://www.festi.info/boxes.py/&#34;&gt;générateur en ligne&lt;/a&gt; puis modifiés suivant nos besoins sur Inkscape. On réalise également des barrettes qui sont vissées sur les parois de la boîte à la jonction des différentes parties pour renforcer l&amp;rsquo;assemblage. La boîte peut être recouverte d&amp;rsquo;un plastique pour protéger le bois de l&amp;rsquo;eau.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Boîte&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/hs-1.jpg&#34; title=&#34;Montage de la boîte&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Boîte&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/hs-2.jpg&#34; title=&#34;Boîte assemblée et simulation de la disposition des morceaux de polystyrène&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Montage de la boîte&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Boîte assemblée et simulation de la disposition des morceaux de polystyrène&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Une fois les pièces en polystyrène prêtes et la boîte assemblée, on va pouvoir préparer le béton.&lt;/p&gt;
+&lt;p&gt;Le béton réfractaire est fait à partir d&amp;rsquo;un mélange de vermiculite (ou perlite), de pouzzolane et de ciment fondu. On y ajoute des fibres pour renforcer le mélange et de l&amp;rsquo;eau. Le ratio correspond à du 1 pour 3 : 1 ciment pour 3 roches volcaniques (2 perlite + 1 pouzzolane). Le tout est mélangé avec malaxeur, l&amp;rsquo;eau est ajoutée au fur et à mesure suivant le besoin.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Mélange&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/hs-3.jpg&#34; title=&#34;Pouzzolane&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Mélange&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/hs-4.jpg&#34; title=&#34;Vermiculite ou perlite&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Mélange&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/hs-5.jpg&#34; title=&#34;Ajout des ingrédients dans un récipient&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Mélange&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/hs-6.jpg&#34; title=&#34;Mélange des indrédients&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Mélange&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/hs-7.jpg&#34; title=&#34;Ajout de l&amp;#39;eau lors du mélange&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Pouzzolane&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Vermiculite ou perlite&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Ajout des ingrédients dans un récipient&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Mélange des indrédients&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Ajout de l&amp;rsquo;eau lors du mélange&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Quand le mélange est prêt, on le verse petit à petit dans la boîte en mettant en parallèle les morceaux de polystyrène. Ainsi, le mélange se moule autour du polystyrène. Il faut garder en tête que la structure est moulée à l&amp;rsquo;envers : le socle de la boîte correspond au haut de la structure. On attend ensuite que le béton se solidifie.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Béton&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/hs-8.jpg&#34; title=&#34;Pose du mélange et du polystyrène dans la boîte&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Béton&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/hs-9.jpg&#34; title=&#34;Boîte qui accueille le béton réfractaire&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Pose du mélange et du polystyrène dans la boîte&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Boîte qui accueille le béton réfractaire&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ribolyser - pièce à remplacer</title>
+      <link>//localhost:1313/lea_jean/project/ribo/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/ribo/</guid>
+      <description>&lt;h2 id=&#34;contexte&#34;&gt;Contexte&lt;/h2&gt;
+&lt;p&gt;Le Ribolyser est une machine d&amp;rsquo;extraction d&amp;rsquo;ADN utilisée par l&amp;rsquo;école d&amp;rsquo;ingénieur Bordeaux Sciences Agro. Cette machine doit servir sur un projet de génétique de l&amp;rsquo;Abeille Noire du Sud-Ouest qui fait l&amp;rsquo;objet d&amp;rsquo;un programme de conservation par le Conservatoire des Races d&amp;rsquo;Aquitaine qu&amp;rsquo;ils accueillent dans leurs locaux. Régulièrement des abeilles sont prélevées dans des ruchers expérimentaux pour suivre la pollution génétique par l&amp;rsquo;abeille domestique. Leur ADN doit être extrait pour qu&amp;rsquo;on puisse suivre certains gènes qui témoignent de leur lignée maternelle. Lors du processus d&amp;rsquo;extraction, la lyse mécanique doit être optimale. Cela peut être fait à la main mais s&amp;rsquo;il y a un trop grand nombre d&amp;rsquo;échantillons, c&amp;rsquo;est la tendinite assurée et/ou l&amp;rsquo;apparition de variabilité due à l&amp;rsquo;opérateur. Passer par une machine permet de lyser mécaniquement de manière standardisée. Les enseignants ont accès à des machines dernier cri mais pas les étudiants, or ce sera leur projet de standardiser l&amp;rsquo;extraction d&amp;rsquo;ADN d&amp;rsquo;abeille.&lt;/p&gt;
+&lt;p&gt;Les étudiants devront donc utiliser le FastPrep 120 Hybaid Ribolyser détenu par l&amp;rsquo;école, cependant l&amp;rsquo;une des pièces qui doit supporter beaucoup de contrainte est cassée. Un enseignant a donc demandé au Fablab Coh@bit de refaire cette pièce pour que les étudiants puissent utiliser la machine.&lt;/p&gt;
+&lt;h2 id=&#34;début-du-projet&#34;&gt;Début du projet&lt;/h2&gt;
+&lt;p&gt;Initialement, l&amp;rsquo;enseignant qui a contacté le Fablab voulait retirer la pièce de la machine et nous l&amp;rsquo;amener pour qu&amp;rsquo;on puisse la refaire. Or, la pièce éatant coincée, nous sommes directement allé sur place pour voir quel est le problème, discuter des solutions, et prendre des photos et des mesures.&lt;/p&gt;
+&lt;p&gt;La pièce est maintenue par trois vis. Deux d&amp;rsquo;entre elles ont été retirées avec succès mais la dernière est restée coincée. Pour cause, ces vis ont été rodées sur une partie du filetage pour qu&amp;rsquo;elles ne se dévissent pas lorsque la machine est en marche. La dernière vis est ainsi bloquée au niveau du deuxième filet.&lt;/p&gt;
+&lt;p&gt;La machine a directement été déplacée au Fablab pour pouvoir plus confortablement sortir la pièce avec les moyens nécessaires à disposition.&lt;/p&gt;
+&lt;h2 id=&#34;extraction-de-la-pièce-à-remplacer&#34;&gt;Extraction de la pièce à remplacer&lt;/h2&gt;
+&lt;p&gt;Lorsque nous étions dans les locaux de Bordeaux Sciences Agro, nous avons contraint la pièce pour déboulonner au-dessous et pouvoir sortir le disque auquel la pièce est fixé, pour finalement pouvoir enlerver la vis plus facilement. Le risque d&amp;rsquo;abîmer plus la pièce a été pris car cette dernière ayant une forme simple et répétitive, nous avons jugé que ce n&amp;rsquo;était pas un problème pour la modélisation de celle-ci.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;La pièce à remplacer est coincée par la vis&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/ribo1.jpg&#34; title=&#34;La pièce à remplacer est coincée par la vis&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Cependant, l&amp;rsquo;opération n&amp;rsquo;a pas fonctionné car l&amp;rsquo;axe tourne simultanément. Il faut donc le maintenir lors du dé-assemblage. Les moyens sur place et le temps nous limitant, la décision a été prise d&amp;rsquo;amener la machine dans les locaux du Fablab afin de pouvoir prendre le temps d&amp;rsquo;extraire la pièce en essayant de ne pas trop endommager les vis.&lt;/p&gt;
+&lt;p&gt;Nous avons dévissé la pièce verte du carter ce qui nous a permis de sortir l&amp;rsquo;ensemble motorisé et ainsi de maintenir l&amp;rsquo;axe du rotor pour déboulonner au dessus de la pièce bleue. Nous avons ensuite détaché le ressort de la pièce bleue puis la pièce bleue de l&amp;rsquo;axe du rotor.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Ensemble motorisé&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/ribo2.jpg&#34; title=&#34;Ensemble motorisé&#34;&gt;
+&lt;img alt=&#34;Pièce bleue et pièce à remplacer extraites&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/ribo3.jpg&#34; title=&#34;Pièce bleue et pièce à remplacer extraites (vue du dessus à gauche et du dessous à droite)&#34;&gt;&lt;/p&gt;
+&lt;p&gt;La pièce à remplacer n&amp;rsquo;étant plus fixée à la machine et les éléments autour ayant été limités, nous avons une meilleure vision de la manière de procéder pour l&amp;rsquo;extraction de cette pièce et cette opération sera menée de manière plus confortable avec moins de risques d&amp;rsquo;endommager une pièce.&lt;/p&gt;
+&lt;p&gt;Après observation, il a été constaté que le pas de vis est endommagé. La vis a été sciée et la pièce libérée.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Pièce à remplacer&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/ribo4.jpg&#34; title=&#34;Pièce à remplacer&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Pour remplacer la vis endommagée, ses dimensions ont été prises. Nous avons pu ensuite en commander de nouvelles.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Vis&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/visribo.jpg&#34; title=&#34;Dessin de définition de la vis (à gauche) et nouvelles vis commandée (à droite)&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Le diamètre de la tête de la nouvelle vis est supérieur de 1 mm au diamètre requis. Au tour conventionnel, on effectue un chariotage de la tête de vis pour l&amp;rsquo;ajuster. On chariote ensuite le filet vers le bout de la vis en utilisant un outil à tronçonner. Lors du test de la vis dans l&amp;rsquo;assemblage, il est observé qu&amp;rsquo;il faut forcer pour visser. On suppose que le problème vient du pas de vis. Ainsi, on procède à l&amp;rsquo;ajustage à l&amp;rsquo;aide d&amp;rsquo;un taraud pour la vis et d&amp;rsquo;une filière pour le trou qui l&amp;rsquo;accueillera. Un test est de nouveau effectué et l&amp;rsquo;assemblage est validé. Enfin, on colle le capuchon orange à la vis.&lt;/p&gt;
+&lt;h2 id=&#34;modélisation-de-la-pièce-à-remplacer&#34;&gt;Modélisation de la pièce à remplacer&lt;/h2&gt;
+&lt;p&gt;Il s&amp;rsquo;agit d&amp;rsquo;une pièce qui sera très contrainte et qui doit résister en fatigue. Le département SGM de l&amp;rsquo;IUT de Bordeaux nous a ainsi fourni des bruts de polyéthylène.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Brut&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/brutribo.jpg&#34; title=&#34;Bruts fournis par le département SGM&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Il convient de d&amp;rsquo;abord modéliser sur FreeCAD la pièce après avoir pris les mesures nécessaires sur la pièce existante.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Modélisation&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/piece-poly-V2.png&#34; title=&#34;Modélisation de la pièce à remplacer avec FreeCAD (vue du dessus à gauche et de dessous à droite)&#34;&gt;&lt;/p&gt;
+&lt;p&gt;La première modélisation n&amp;rsquo;a pas été faite de manière optimale. Ainsi, après avoir reçu des conseils d&amp;rsquo;une personne expérimentée, une deuxième modélisation de la pièce plus propre est entreprise puis le paramétrage de l&amp;rsquo;usinage est effectué.&lt;/p&gt;
+&lt;h2 id=&#34;réalisation-de-la-pièce-à-remplacer&#34;&gt;Réalisation de la pièce à remplacer&lt;/h2&gt;
+&lt;p&gt;Pour commencer, de premiers tests sont entrepris afin de vérifier les trajectoires outils programmées et l&amp;rsquo;enchainement des opérations. Pour limiter les coûts et acheter uniquement la quantité de matière nécessaire, les tests ont été réalisés sur du MDF (médium).&lt;/p&gt;
+&lt;p&gt;En parallèle, on imprime la pièce avec une imprimante 3D à filament. Pour cause, pouvoir imprimer la pièce rend sa fabrication plus accessible. On teste ainsi une impression en PETG.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Scanner 3D</title>
+      <link>//localhost:1313/lea_jean/project/scanner-3d/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/scanner-3d/</guid>
+      <description>&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
+&lt;p&gt;A partir des pièces d&amp;rsquo;un scanner 3D déjà réalisé auparavant, on réalise un système permettant de prendre plusieurs photos de manière régulière et à la même distance d&amp;rsquo;un objet. A terme, avec un logiciel, on va pouvoir construire le modèle 3D de l&amp;rsquo;objet à partir de ces photos.&lt;/p&gt;
+&lt;p&gt;J’ai décidé de garder la plaque tournante du système d&amp;rsquo;origine, mais aussi de concevoir un nouveau support pour l&amp;rsquo;appareil photo et puis de programmer l’Arduino de manière à ce que la plaque tourne d&amp;rsquo;un certain incrément toutes les tant de secondes, la photo sera prise pendant ce laps de temps (par exemple, la plaque va tourner de 15° toutes les 10 secondes).&lt;/p&gt;
+&lt;h3 id=&#34;réalisation&#34;&gt;Réalisation&lt;/h3&gt;
+&lt;p&gt;Pour commencer, j’ai démonté le scanner 3D, puis modélisé sur FreeCAD le support de l&amp;rsquo;appareil photo.
+Le support était au départ composé d&amp;rsquo;un corps à imprimer, d&amp;rsquo;une plaque pour supporter l&amp;rsquo;appareil photo, qui serait fixée au corps grâce à des chevilles en bois, et de deux tubes pour stabiliser la plaque aux extrémités. Après réflexion, j’ai décidé de ne mettre qu’un seul tube car suffisant. Ce dernier serait renforcé par un pied.&lt;/p&gt;
+&lt;p&gt;J’ai imprimé le corps en PLA et découpé à la découpe laser la plaque de MDF 10 mm. J’ai ensuite percé les trous qui permettront de fixer la plaque au corps avec une perceuse à colonne. Le trou traversant au milieu de la plaque va permettre de fixer l&amp;rsquo;appareil photo à plaque. Il a été placé par rapport à la position du trou déjà présent en-dessous de l&amp;rsquo;appareil photo. J’ai ensuite scié un tube de métal de diamètre 8 mm.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Support&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/piece1.jpg&#34; title=&#34;Corps imprimé en PLA&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Support&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/piece2.jpg&#34; title=&#34;Corps imprimé en PLA&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Support&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/plaque2.jpg&#34; title=&#34;Plaque support en MDF&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Corps imprimé en PLA&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Corps imprimé en PLA&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Plaque support en MDF&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Il y a un décalage de hauteur d&amp;rsquo;environ 6-7 mm entre l&amp;rsquo;appareil photo et la plaque support, donc pour qu&amp;rsquo;il soit parallèle à cette dernière, j’ai découpé de petites cales (dessinées sur Inkscape) de 3 mm que j’ai collées ensemble. La cale a ensuite été collée sur la plaque support.&lt;/p&gt;
+&lt;p&gt;Pour garder le tube droit, j’ai modélisé et imprimé un pied. Puis j’ai modélisé et imprimé une pièce qui s&amp;rsquo;encastre dans le tube et la plaque support pour assurer un maintien entre les deux pièces mais pour également garder l&amp;rsquo;ensemble démontable.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Support&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/piece-scanner3d.jpg&#34; title=&#34;Pièce qui s&amp;#39;encastre dans le tube&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Support&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/pied.jpg&#34; title=&#34;Pied support assemblé&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Pièce qui s&amp;rsquo;encastre dans le tube&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Pied support assemblé&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Après avoir assemblé les pièces du support caméra ensemble, j’ai ensuite assemblé ce dernier avec la plaque tournante.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Support&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/support2.jpg&#34; title=&#34;Ensemble plaque tournante/support assemblés&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Support&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/scanner.jpg&#34; title=&#34;Ensemble plaque tournante/support assemblés&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Support&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/support3.jpg&#34; title=&#34;Ensemble plaque tournante/support assemblés&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Ensemble plaque tournante/support assemblés&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Ensemble plaque tournante/support assemblés&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Ensemble plaque tournante/support assemblés&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Support de boisson adaptable à un fauteuil roulant</title>
+      <link>//localhost:1313/lea_jean/project/support-boisson/</link>
+      <pubDate>Thu, 13 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/support-boisson/</guid>
+      <description>&lt;h2 id=&#34;contexte&#34;&gt;Contexte&lt;/h2&gt;
+&lt;p&gt;L&amp;rsquo;objectif est de réaliser un support de boisson pour une personne en situation de handicap. Le support sera fixé à un fauteuil roulant et démontable. Le support ne doit cependant pas être trop haut pour pouvoir passer en dessous des tables. Il accueillera un gobelet et sera accompagné d&amp;rsquo;une paille.
+Le modèle du fauteuil du demandeur possède des rails en-dessous de l’accoudoir, il est alors possible d’utiliser ces rails pour fixer le support au fauteuil.&lt;/p&gt;
+&lt;h2 id=&#34;description-du-système&#34;&gt;Description du système&lt;/h2&gt;
+&lt;p&gt;Le système est composé de deux pièces : la première est bloc qui va glisser dans le rail de l&amp;rsquo;accoudoir gauche, et la seconde portera le gobelet. La seconde pièce sera encastrée dans la première grâce à un système de rail. Avec ce système de blocs, on peut envisager plusieurs &amp;ldquo;accessoires&amp;rdquo; personnalisés en changeant uniquement le deuxième bloc.
+Les mesures utiles à la conception ont été prises directement sur le fauteuil du demandeur. La modélisation des pièces est faite sur le logiciel de CAO &lt;a href=&#34;https://www.freecadweb.org/?lang=fr&#34;&gt;FreeCAD&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;première-version&#34;&gt;Première version&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Modélisation&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/porte-gobelet.png&#34; title=&#34;Modélisation du porte-gobelet&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Modélisation&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/support-boisson-ensemble.png&#34; title=&#34;Modélisation de l&amp;#39;ensemble&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Modélisation&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/Rails.jpg&#34; title=&#34;Modélisation du rail&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Modélisation du porte-gobelet (vue isométrique)&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Modélisation de l&amp;rsquo;ensemble (vue isométrique)&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Modélisation du rail (vue isométrique)&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Les premiers prototypes sont imprimés en PLA avec une imprimante 3D à filament, sans remplissage à l&amp;rsquo;intérieur pour gagner du temps sur l&amp;rsquo;impression et économiser le fil. Plusieurs rencontres ont lieu avec le demandeur pour tester les prototypes et ajuster les dimensions. Par ailleurs, les bords et les coins sont arrondis pour éviter de se blesser.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;img alt=&#34;Prototype&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/proto2.jpg&#34; title=&#34;Première version&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Prototype&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/proto1.jpg&#34; title=&#34;Première version&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;strong&gt;Première version du prototype imprimé en PLA&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;deuxième-version&#34;&gt;Deuxième version&lt;/h2&gt;
+&lt;p&gt;Le système de fixation entre les deux pièces est très hyperstatique et cela augmente les risques de défaut de fabrication qui compliquent l&amp;rsquo;assemblage. On remplace alors les deux rails par une seule en forme de queue d&amp;rsquo;aronde.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Prototype&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/proto3.jpg&#34; title=&#34;Deuxième version&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Deuxième version du prototype imprimé en PLA&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;La deuxième version du prototype est d&amp;rsquo;abord imprimé en plus petit (à droite sur la photo) pour vérifier l&amp;rsquo;assemblage des deux pièces, puis en taille réelle pour s&amp;rsquo;assurer des bonnes dimensions des rails.&lt;/p&gt;
+&lt;p&gt;Le système fonctionne, cependant il y a un risque qu&amp;rsquo;il se démonte involontairement au niveau de l&amp;rsquo;accroche entre les deux blocs.&lt;/p&gt;
+&lt;h2 id=&#34;troisième-version&#34;&gt;Troisième version&lt;/h2&gt;
+&lt;p&gt;On modifie le système d&amp;rsquo;assemblage entre les deux blocs.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Prototype&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/proto4.jpg&#34; title=&#34;Troisième version&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Troisième version du prototype imprimé en PLA&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Le système fonctionne, est plus équilibré et plus solide au niveau de l&amp;rsquo;assemblage.&lt;/p&gt;
+&lt;h2 id=&#34;quatrième-version&#34;&gt;Quatrième version&lt;/h2&gt;
+&lt;p&gt;On modifie ici le design des pièces pour les rendre plus esthétiques.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Modèle&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/supp2.png&#34; title=&#34;Quatrième version&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;img alt=&#34;Modèle&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/supp3.png&#34; title=&#34;Quatrième version&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Modèle&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/supp4.png&#34; title=&#34;Quatrième version&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Modèle&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/supp1.png&#34; title=&#34;Quatrième version&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Modèle du bloc porte-boisson&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;strong&gt;Modèle du bloc rails&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Modèle de l&amp;rsquo;ensemble du support boisson&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;On imprime ensuite les pièces avec une densité de 30%. L&amp;rsquo;impression a une durée estimée de 16h25 et consommera 155g de fil soit 52m.  Les pièces sont imprimées en noir, couleur souhaitée par le demandeur.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Pièces&#34; src=&#34;//localhost:1313/lea_jean/img/supp5.png&#34; title=&#34;Quatrième version&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Pièces&#34; src=&#34;//localhost:1313/lea_jean/img/supp6.png&#34; title=&#34;Quatrième version&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Pièces&#34; src=&#34;//localhost:1313/lea_jean/img/supp7.png&#34; title=&#34;Quatrième version&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Pièces&#34; src=&#34;//localhost:1313/lea_jean/img/supp8.png&#34; title=&#34;Quatrième version&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Pièces&#34; src=&#34;//localhost:1313/lea_jean/img/supp9.png&#34; title=&#34;Quatrième version&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Support boisson imprimé en PLA&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Une réunion est organisée avec le demandeur. Le produit est validé.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:right&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;img alt=&#34;Pièces&#34; src=&#34;//localhost:1313/lea_jean/img/supp10.jpg&#34; title=&#34;Quatrième version&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img alt=&#34;Pièces&#34; src=&#34;//localhost:1313/lea_jean/img/supp11.jpg&#34; title=&#34;Quatrième version&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:right&#34;&gt;&lt;strong&gt;Support boisson&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;strong&gt;fixé au fauteuil roulant&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chaîne numérique d’une plaque de boîte aux lettres</title>
+      <link>//localhost:1313/lea_jean/project/plaque-boite-aux-lettres/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/plaque-boite-aux-lettres/</guid>
+      <description>&lt;p&gt;L’objectif du projet est, d’une part, de construire la chaîne numérique d’une pièce usinée, et d’autre part d’être capable, pour le Fablab, de faire de la CFAO sans passer par le logiciel du Charly Robot.&lt;/p&gt;
+&lt;p&gt;La pièce souhaitée est une plaque gravée pour boîtes aux lettres aux dimensions standards 100x25x3 mm (l’épaisseur correspond à l’épaisseur de la plaque utilisée) et percée aux quatre coins. On y grave dessus un nom et un petit logo. On utilise par ailleurs une plaque en Dibond d&amp;rsquo;épaisseur 3 mm.&lt;/p&gt;
+&lt;p&gt;Il convient de d’abord modéliser la pièce sur FreeCAD, puis avec le module path de FreeCAD, de construire les trajectoires outils et fixé les paramètres d’usinage pour pouvoir ensuite exporter le &lt;a href=&#34;https://en.wikipedia.org/wiki/G-code&#34;&gt;G-code&lt;/a&gt; généré par le logiciel. Pour que cela fonctionne, il faut préalablement télécharger le post-processeur du Charly Robot et le ranger dans un dossier du logiciel pour que le fichier puisse être lu par celui-ci &lt;a href=&#34;https://projets.cohabit.fr/redmine/projects/documentation-machines/wiki/Charly_Robot_2U#section-10&#34;&gt;(comment installer le post-process du Charly Robot)&lt;/a&gt;. Une fois les fichiers contenant le code ISO générés, il sont chargés dans le logiciel de pilotage du Charly Robot. Après avoir fixé les paramètres nécessaires, on lance l’usinage. J’ai fait plusieurs essais pour trouver les bons paramètres d’usinage. Après avoir eu un résultat satisfaisant, d&amp;rsquo;autres essais ont été faits avec d’autres noms et d’autres dessins.&lt;/p&gt;
+&lt;p&gt;En parallèle, une notice est rédigée, contenant chaque étape du processus de la CAO à la fabrication. Un tuto vidéo de la CFAO pour compléter la notice écrite.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

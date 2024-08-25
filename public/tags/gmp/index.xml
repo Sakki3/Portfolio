@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gmp on Léa JEAN</title>
+    <link>//localhost:1313/lea_jean/tags/gmp/</link>
+    <description>Recent content in Gmp on Léa JEAN</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>fr-fr</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="//localhost:1313/lea_jean/tags/gmp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Main articulée</title>
+      <link>//localhost:1313/lea_jean/project/main/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/main/</guid>
+      <description>&lt;h2 id=&#34;contexte&#34;&gt;Contexte&lt;/h2&gt;
+&lt;p&gt;Ce projet s&amp;rsquo;est déroulé dans le cadre des projets semestriels du département Génie Mécanique et Productique de l&amp;rsquo;IUT de Bordeaux, et évolue en lien avec le parcours robotique.&lt;/p&gt;
+&lt;p&gt;Dû au contexte de la crise sanitaire du COVID-19, seules la planification et la mise en place du cahier des charges fonctionnel ont été réalisées. La planification a malgré tout été menée comme si&lt;/p&gt;
+&lt;h2 id=&#34;présentation-générale-du-projet&#34;&gt;Présentation générale du projet&lt;/h2&gt;
+&lt;p&gt;Le projet consiste à réaliser une &lt;strong&gt;main articulée&lt;/strong&gt; dont l&amp;rsquo;objectif est de &lt;strong&gt;démontrer différentes technologies de liaison utilisables pour les articulations&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Les articulations seront purement mécaniques mais le système peut être amélioré par la motorisation de celui-ci.&lt;/p&gt;
+&lt;h2 id=&#34;planification&#34;&gt;Planification&lt;/h2&gt;
+&lt;p&gt;Afin d&amp;rsquo;organiser au mieux le projet, il faut le &lt;strong&gt;planifier&lt;/strong&gt;. Il convient alors d&amp;rsquo;établir la &lt;strong&gt;liste des tâches&lt;/strong&gt; à réaliser afin de mener à terme le projet, en définissant leurs antécedents (et donc leur chronologie) ainsi que leur durée.&lt;/p&gt;
+&lt;p&gt;On établit ensuite un &lt;strong&gt;GANTT&lt;/strong&gt; et un &lt;strong&gt;PERT&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;cahier-des-charges&#34;&gt;Cahier des charges&lt;/h2&gt;
+&lt;p&gt;On procède à une &lt;strong&gt;analyse fonctionnelle&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;On établit une &lt;em&gt;bête à corne&lt;/em&gt; qui illustre le besoin du système.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Bête à corne&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/bac.png&#34; title=&#34;Bête à corne&#34;&gt;&lt;/p&gt;
+&lt;p&gt;La main articulée devra :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;bouger selon les commandes de l’utilisateur via des commandes extérieures à la main, commandes mécaniques mais qui peuvent évoluer sur des commandes électriques ;&lt;/li&gt;
+&lt;li&gt;pouvoir être montrée à un public par l’utilisateur.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cependant, elle devra aussi s’adapter aux contraintes des éléments environnants. Étant un démonstrateur, la main sera exposée et devra donc s’adapter à un support, mais aussi à son public. En effet, les différentes technologies de liaisons devront être visibles. Par extension, elle devra aussi s’adapter à l’utilisateur, c’est-à-dire, pouvoir être utilisée par ce dernier. Enfin, elle devra s’adapter à l’environnement dans lequel elle sera exposée.&lt;/p&gt;
+&lt;p&gt;On établit ainsi les fonctions de service et les fonctions contraintes du système, qu&amp;rsquo;on représente dans un &lt;em&gt;diagramme pieuvre&lt;/em&gt;.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Fonctions de service&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Contraintes d’adaptation&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;FS23 : Obéir aux commandes de l’utilisateur&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Ca1 : S’adapter au support&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;FS34 : Montrer la main au public&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Ca2 : S’adapter à l’utilisateur&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Ca3 : S’adapter au public&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Ca4 : S’adapter à l’environnement&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;img alt=&#34;Diagramme pieuvre&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/diag-pieuvre.png&#34; title=&#34;Diagramme pieuvre&#34;&gt;&lt;/p&gt;
+&lt;p&gt;On regroupe le &lt;strong&gt;besoin fondamental&lt;/strong&gt;, les &lt;strong&gt;fonctions services&lt;/strong&gt; et les &lt;strong&gt;contraintes d&amp;rsquo;adaptation&lt;/strong&gt; dans un diagramme FAST.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;FAST&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/FAST.png&#34; title=&#34;FAST&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Contraintes générales :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Le système doit être défini dans un format A4 ;&lt;/li&gt;
+&lt;li&gt;Respecter les normes de sécurité ;&lt;/li&gt;
+&lt;li&gt;Utiliser des technologies différentes ;&lt;/li&gt;
+&lt;li&gt;Age minimum d’utilisation : 11 ans ;&lt;/li&gt;
+&lt;li&gt;Matériaux : utilisation de matières plastiques et d’alliages d&amp;rsquo;aluminium ;&lt;/li&gt;
+&lt;li&gt;Énergie : énergie mécanique uniquement ; en cas d’évolution, énergie électrique : 24V max ;&lt;/li&gt;
+&lt;li&gt;Masse : le système doit être facilement transportable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Il est important décrire les &lt;strong&gt;éléments environnants&lt;/strong&gt; au système.vLe projet étant un démonstrateur, il sera exposé dans un environnement sec et sera utilisé par plusieurs personnes lors des présentations.&lt;/p&gt;
+&lt;p&gt;On &lt;strong&gt;caractérise&lt;/strong&gt; enfin les fonctions.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;FS23 : Obéir aux commandes de l&amp;rsquo;utilisateur&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Critères de l&amp;rsquo;action&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Niveaux&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Flexibilité&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Éléments environnants influents: Environnement, public, utilisateurs&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Commander : Tension (fils)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;A définir par des essais&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Maxi&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;FS34 : Montrer la main au public&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Critères de l&amp;rsquo;action&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Niveaux&lt;/strong&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;strong&gt;Flexibilité&lt;/strong&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Éléments environnants influents: Environnement, commandes, utilisateurs&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Montrer : Liaisons&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;7&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Mini&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Éléments environnants influents: Environnement, commandes, utilisateurs&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Résister à l&amp;rsquo;usure : Cycles d’utilisation (tension/relâchement des fils)&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;500/jour&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;Maxi&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Construction d&#39;une structure de Kapla</title>
+      <link>//localhost:1313/lea_jean/project/kapla/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/kapla/</guid>
+      <description>&lt;h2 id=&#34;cahier-des-charges&#34;&gt;Cahier des charges&lt;/h2&gt;
+&lt;p&gt;Le projet s&amp;rsquo;est développé dans le cadre du semestre 4 du parcours robotique de l&amp;rsquo;IUT de Bordeaux, site de Gradignan. L&amp;rsquo;objectif est, à partir d’un tableau recensant les coordonnées (base, position, orientation) des Kapla, de réaliser une structure avec ces mêmes Kapla.&lt;/p&gt;
+&lt;p&gt;Le matériel a disposition comprend :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 convoyeur,&lt;/li&gt;
+&lt;li&gt;2 dobots Magician (robots 4 axes),&lt;/li&gt;
+&lt;li&gt;des &lt;a href=&#34;https://www.kapla.com/fr/&#34;&gt;Kapla&lt;/a&gt; de dimensions 25x20x70 mm,&lt;/li&gt;
+&lt;li&gt;1 caméra Intel D435i RealSense Depth,&lt;/li&gt;
+&lt;li&gt;1 raspberry pi,&lt;/li&gt;
+&lt;li&gt;et divers composants comme des servomoteurs Dynamixel MX-12W, etc&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le cycle à suivre est celui-ci :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Prise d&amp;rsquo;un Kapla dans le magasin par le dobot 1&lt;/li&gt;
+&lt;li&gt;Dépose sur le convoyeur pour transfert vers le dobot 2&lt;/li&gt;
+&lt;li&gt;Reconnaissance du Kapla&lt;/li&gt;
+&lt;li&gt;Prise du Kapla par le dobot 2&lt;/li&gt;
+&lt;li&gt;Réalisation de la structure&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;L&amp;rsquo;effecteur des dobots est au choix : une pince pneumatique ou une ventouse.&lt;/p&gt;
+&lt;h2 id=&#34;planification&#34;&gt;Planification&lt;/h2&gt;
+&lt;p&gt;Pour une organisation optimale, une planification du projet est nécessaire. Il faut pour cela identifier les différentes tâches à réaliser et leur chronologie, les répartir entre les membres de l&amp;rsquo;équipe, et les répartir dans le temps de manière à respecter les jalons. Il convient alors d&amp;rsquo;établir un GANTT.&lt;/p&gt;
+&lt;h2 id=&#34;identification-des-problématiques-et-recherche-de-solutions&#34;&gt;Identification des problématiques et recherche de solutions&lt;/h2&gt;
+&lt;h3 id=&#34;problématique-1--lorientation-des-kapla&#34;&gt;Problématique 1 : l&amp;rsquo;orientation des Kapla&lt;/h3&gt;
+&lt;p&gt;Dans le magasin, les Kapla ont tous la même orientation, et il faut que le Kapla puisse prendre n&amp;rsquo;importe quelle orientation suivant les besoins de la structure finale. Cependant, l’effecteur du dobot ne peux pas effectuer de rotations suivant x et y, toutes les orientations ne sont donc pas possibles.&lt;/p&gt;
+&lt;h4 id=&#34;recherche-de-solutions&#34;&gt;Recherche de solutions&lt;/h4&gt;
+&lt;p&gt;Plusieurs solutions ont alors émergées. La première est de faire tomber le Kapla en fin de convoyeur dans une boîte avec une pente. En chutant le long de la pente, le kapla se retourne. L’inconvénient est que le Kapla peut se coincer s’il ne tombe pas directement dans la bonne position. Cette idée n’est donc pas la plus appropriée. Pour passer outre ce problème, nous avons réfléchi à une solution semblable mais plus &amp;ldquo;sûre&amp;rdquo;. Nous avons donc conçu une solution motorisée en forme de “L” permettant de retourner le Kapla en activant un moteur.&lt;/p&gt;
+&lt;h4 id=&#34;choix-de-solution&#34;&gt;Choix de solution&lt;/h4&gt;
+&lt;p&gt;Nous optons ainsi de développer la structure en “L” pour le système.&lt;/p&gt;
+&lt;h3 id=&#34;problématique-2--détection-du-kapla&#34;&gt;Problématique 2 : détection du Kapla&lt;/h3&gt;
+&lt;p&gt;Pour que le système fonctionne, les dobots doivent pouvoir trouver les Kapla pour les saisir.&lt;/p&gt;
+&lt;h4 id=&#34;recherche-de-solutions-1&#34;&gt;Recherche de solutions&lt;/h4&gt;
+&lt;p&gt;Nous avons donc pensé ici à trois solutions.
+La première est de reposer le transport des Kapla sur l’exactitude de répétition de mouvements des robots et du convoyeur dans le but de ne pas utiliser de capteur de détection, et de tester notre convoyeur et nos dobots de manière à ce que les Kaplas puissent être posés toujours aux mêmes endroits sur le convoyeur par le dobot 1 et récupéré toujours au même endroit par le dobot 2. Or cette solution est hasardeuse.
+La deuxième est d’utiliser un capteur de présence laser pour retourner l’information de la présence du Kapla en bout de convoyeur. Avec ce système, la récupéreration du Kapla par le dobot 2 se fait au même endroit.
+La troisième est d’utiliser une caméra et une intelligence artificielle de reconnaissance d’image et de détection de centre de gravité. En ayant le centre de gravité, nous pouvons déterminer précisément le point où le dobot 2 doit saisir le Kapla. L’avantage principal de ce système est de pouvoir déterminer la position du Kapla tant qu’il est dans le champ de vision de la caméra, et permet de corriger des erreurs de rotation au niveau de l’axe Z.&lt;/p&gt;
+&lt;h4 id=&#34;choix-de-solution-1&#34;&gt;Choix de solution&lt;/h4&gt;
+&lt;p&gt;Le choix s&amp;rsquo;est d&amp;rsquo;abord porté sur la troisième solution, soit une détection par caméra, solution qui par manque de temps n’as pas pu aboutir. Nous avons donc finalement opté pour le capteur de présence.&lt;/p&gt;
+&lt;h3 id=&#34;problématique-3--lecture-de-fichier&#34;&gt;Problématique 3 : lecture de fichier&lt;/h3&gt;
+&lt;p&gt;Les Kaplas ne sont pas préalablement triés dans le fichier json fourni. La problématique qui se présente ici est donc l&amp;rsquo;ordre de pose des Kapla qui nous est inconnu.&lt;/p&gt;
+&lt;h4 id=&#34;choix-de-solution-2&#34;&gt;Choix de solution&lt;/h4&gt;
+&lt;p&gt;Il convient alors de réaliser un code de tri qui, après importation du fichier
+json, renvoie le fichier dans l&amp;rsquo;ordre de dépose sur la zone de charge.&lt;/p&gt;
+&lt;h3 id=&#34;problématique-4--choix-de-leffecteur&#34;&gt;Problématique 4 : choix de l&amp;rsquo;effecteur&lt;/h3&gt;
+&lt;p&gt;Le choix nous est donné entre une ventouse ou une pince pneumatique comme effecteur des dobots. Ce choix influe sur la prise des Kapla. Ainsi, l&amp;rsquo;effecteur utilisé ici est une ventouse.&lt;/p&gt;
+&lt;h2 id=&#34;modélisation-et-réalisation-de-lensemble-du-système&#34;&gt;Modélisation et réalisation de l&amp;rsquo;ensemble du système&lt;/h2&gt;
+&lt;h3 id=&#34;structure-en-l&#34;&gt;Structure en &amp;ldquo;L&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;Dans le but de pouvoir changer l&amp;rsquo;orientation des Kapla suivant les besoin de la structure en Kapla finale, il convient de concevoir un système. Le système conçu ici est une structure en “L”. Ce nom lui vient de la forme principale de la forme de la structure qui vue de profil ressemble à un “L”.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Dessin d&amp;rsquo;ensemble&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/dess-ens-l.png&#34; title=&#34;Dessin d&amp;#39;ensemble de la structure en L&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Modélisation de l&amp;rsquo;ensemble&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/L.png&#34; title=&#34;Modélisation 3D de la structure en L sur OnShape&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Dessin d&amp;rsquo;ensemble de la structure en &amp;ldquo;L&amp;rdquo;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Modélisation 3D de la structure en &amp;ldquo;L&amp;rdquo; sur OnShape&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Le principe de sa structure est relativement simple. Un servomoteur Dynamixel MX-12W, commandé en angle, bascule de 90° lorsqu&amp;rsquo;on le lui demande. Le dobot 2 saisit le Kapla sur le convoyeur et le positionne à l’intérieur du “L”. Ainsi, lorsque le Kapla est allongé, nous pouvons choisir si nous voulons le positionner au sol, en longueur ou en largeur. Le &amp;ldquo;L&amp;rdquo; dispose également d’une encoche et d’un côté plus long que l’autre pour pouvoir positionner le Kapla debout. Ainsi, après avoir saisi le Kapla sur le convoyeur, la ventouse réalise une rotation suivant l’axe z pour pouvoir positionner le Kapla dans la petite encoche.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Structure en L&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/structure-l.jpg&#34; title=&#34;Structure en L fabriquée&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Le système est d&amp;rsquo;abord modélisé en 3D et assemblé sur le logiciel de CAO en ligne &lt;a href=&#34;https://www.onshape.com/en/&#34;&gt;&lt;em&gt;OnShape&lt;/em&gt;&lt;/a&gt;. Ensuite, le &amp;ldquo;L&amp;rdquo; et sa fixation au moteur sont imprimésen PLA avec des imprimantes 3D à filament. On utilise une découpeuse laser pour réaliser le socle en PMMA et on scie une tige en métal qui fixera le &amp;ldquo;L&amp;rdquo; à la fixation. Enfin, on assemble le tout : les pièce du socle sont emboités, la fixation est vissée au moteur et le moteur est vissé au socle, la tige s&amp;rsquo;insert dans la fixation et le &amp;ldquo;L&amp;rdquo;.&lt;/p&gt;
+&lt;h3 id=&#34;support-de-la-caméra&#34;&gt;Support de la caméra&lt;/h3&gt;
+&lt;p&gt;Dans le cas de la détection de Kapla par caméra, un support pour fixer cette dernière est nécessaire. Celui-ci se fixe sur le convoyeur et est conçu de manière à ce que la caméra donne une vue du dessus du convoyeur. Les dimensions sont pensées de manière à pouvoir fixer la caméra mais également de manière à ce que le support ne gène pas les dobots pendant leurs déplacements.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Dessin de définition&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/support-cam-kapla.png&#34; title=&#34;Dessin de définition du support caméra&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Modélisation de l&amp;rsquo;ensemble&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/support-cam.png&#34; title=&#34;Modélisation 3D du support caméra sur OnShape&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Modélisation&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/supp-cam-kapla.jpg&#34; title=&#34;Support caméra fabriqué&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Dessin de définition du support caméra&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Modélisation 3D du support caméra sur OnShape&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Support caméra fabriqué&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Le support est d&amp;rsquo;abord modélisé sur OnShape puis fabriqué. Un morceau de tôle est découpé à la cisailleuse aux dimensions voulues. La plaque est ensuite percée à la perceuse à colonne. Certains trous serviront à visser le support au convoyeur, tandis que les autres serviront à visser la caméra au support. Enfin, on plie la tôle. Afin que le support ne fléchisse pas sous le poids de la caméra, un morceau de tôle est soudé par point en renfort.&lt;/p&gt;
+&lt;h3 id=&#34;ensemble-du-système&#34;&gt;Ensemble du système&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Schéma de l&amp;rsquo;ensemble&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/schema-ens-kapla.jpg&#34; title=&#34;Schéma du système&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Modélisation de l&amp;rsquo;ensemble&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/ens-kapla.jpg&#34; title=&#34;Modélisation 3D du système sur OnShape&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Schéma du système&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Modélisation 3D du système sur OnShape&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;programmation&#34;&gt;Programmation&lt;/h2&gt;
+&lt;h3 id=&#34;programmation-de-la-structure-en-l&#34;&gt;Programmation de la structure en &amp;ldquo;L&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;Dans le but de réaliser la programmation du moteur dynamixel dans la structure, à l’aide d’une Arduino, nous utilisons la librairie &lt;em&gt;ardyno&lt;/em&gt; afin d’importer &lt;em&gt;“dynamixelMotor”&lt;/em&gt;. La fonction &lt;em&gt;motor.goalPosition()&lt;/em&gt; est ensuite utilisée pour set l’angle du moteur.&lt;/p&gt;
+&lt;p&gt;Par la suite, il nous est nécessaire de pouvoir exploiter ce programme avec des appellations dans un programme en python. On réalise donc une liaison port série afin de communiquer avec l’Arduino depuis un programme en python. Pour cela nous utiliserons la bibliothèque &lt;em&gt;pyserial&lt;/em&gt; afin d’importer &lt;em&gt;“Serial”&lt;/em&gt;. On pourra alors taper la commande &lt;em&gt;serial.Serial(port,baudrate,timeout)&lt;/em&gt; afin de se connecter au port série de l’Arduino.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;L&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/structure-l-vid2.gif&#34; title=&#34;Structure en L en fonctionnement&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;programmation-de-la-caméra&#34;&gt;Programmation de la caméra&lt;/h3&gt;
+&lt;p&gt;Afin de faire une étude de la position du Kapla sur le convoyeur, il est possible d&amp;rsquo;utiliser utiliser une caméra et une intelligence artificielle de reconnaissance d’image et de détection de centre de gravité. Un logigramme est préalablement construit pour structurer le programme. En utilisant un code trouvé sur Internet permettant de régler le filtre en direct sur une image ou une vidéo, nous choisissons les valeurs en codage HSV les plus adaptées pour extraire seulement le Kapla de l&amp;rsquo;image.&lt;/p&gt;
+&lt;p&gt;Au lancement des programmes on observe l’apparition de lignes vertes qui représentent les lignes verticales du Kapla, et de lignes rouges qui représentent les lignes horizontales du Kapla. Néanmoins, par faute de temps, le programme n’est pas fini et on voit apparaître de nombreux problèmes sur la détermination des lignes. En achevant ce programme, il est possible de connaître les 4 coins du Kapla et de son centre.&lt;/p&gt;
+&lt;p&gt;Nos résultats sont les suivants :&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Résultats&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/res-cam.jpg&#34; title=&#34;Résultats obtenus par la programmation de la caméra&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;capteur-laser&#34;&gt;Capteur laser&lt;/h3&gt;
+&lt;p&gt;Comme la caméra s&amp;rsquo;est avérée plus compliquée à utiliser et à intégrer que prévu dans la limite du temps imparti, nous avons donc utilisé le capteur pour détecter le Kapla en fin de course sur le convoyeur. Lorsque le capteur le détecte, le convoyeur s&amp;rsquo;arrête.&lt;/p&gt;
+&lt;h3 id=&#34;code-du-tri-des-kapla&#34;&gt;Code du tri des Kapla&lt;/h3&gt;
+&lt;p&gt;Afin de faciliter la prise et la pose des Kapla, on passe par une étape de tri de ces derniers. On a décidé de prendre les Kapla du plus en bas au plus en haut (en les prenant à terre) en remontant progressivement. Le tri se fait donc selon l’axe z. On parcourt ainsi la liste des positions des Kapla en les sélectionnant avec le z le plus bas.&lt;/p&gt;
+&lt;h3 id=&#34;code-principal&#34;&gt;Code principal&lt;/h3&gt;
+&lt;p&gt;Le code dit principal est le code obtenu après l’intégration de tous les morceaux de code séparés. Pour la logique globale qui en découle, on établit en amont un algorithme permettant de mieux comprendre la structure et l&amp;rsquo;algorithme de notre code. Pour le code principal, on intègre les différentes parties de code faites en amont et on les rassemble sous forme de fonctions que nous avons simplement à appeler dans le &lt;em&gt;main&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Logigramme&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/logi-kapla.jpg&#34; title=&#34;Logigramme du programme&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;système-final&#34;&gt;Système final&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Photo du système&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/kapla.jpg&#34; title=&#34;Photo du système (vue de haut)&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Photo du système&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/kapla2.jpg&#34; title=&#34;Photo du système (vue de côté)&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Photo du système (vue de haut)&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Photo du système (vue de côté)&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Ci-dessous, une vidéo du système en fonctionnement à la fin du projet :&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Système en fonctionnement&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/sys-kapla.gif&#34; title=&#34;Système en fonctionnement&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projet défi - Distributeur de bonbons</title>
+      <link>//localhost:1313/lea_jean/project/distributeur/</link>
+      <pubDate>Sun, 09 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/distributeur/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Dates du projet : 21/10/2019 - 25/10/2019&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;contexte&#34;&gt;Contexte&lt;/h2&gt;
+&lt;p&gt;Le projet s&amp;rsquo;est déroulé dans le cadre de la formation &lt;strong&gt;Génie Mécanique et Productique (GMP)&lt;/strong&gt;. Chaque groupe a quatre jours (hors temps de présentation) pour concevoir et réaliser un système suivant le cahier des charges donné en début de semaine. Le dernier jour, les groupes doivent faire une présentation de leur système à un jury.&lt;/p&gt;
+&lt;h2 id=&#34;cahier-des-charges&#34;&gt;Cahier des charges&lt;/h2&gt;
+&lt;p&gt;L&amp;rsquo;objectif est de fabriquer un &lt;strong&gt;distributeur&lt;/strong&gt; capable de distribuer &lt;em&gt;un bonbon toutes les 4 secondes&lt;/em&gt;. Celui-ci doit pouvoir &lt;em&gt;stocker&lt;/em&gt; une &lt;em&gt;vingtaine d&amp;rsquo;éléments&lt;/em&gt; et l&amp;rsquo;encombrement du système ne doit pas excéder &lt;em&gt;350x350x450 mm&lt;/em&gt;. Le mouvement d&amp;rsquo;entrée atteint une vitesse de rotation de &lt;em&gt;30 tr/min&lt;/em&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;recherche-de-solution&#34;&gt;Recherche de solution&lt;/h2&gt;
+&lt;p&gt;Un brainstorming entre les membres de l&amp;rsquo;équipe est organisé durant lequel plusieurs solutions ont émergées.&lt;/p&gt;
+&lt;h3 id=&#34;solution-1&#34;&gt;Solution 1&lt;/h3&gt;
+&lt;p&gt;La première solution utilise une vis sans fin. Le bonbon est entrainé par la vis sans fin en rotation, voyageant dans son filet jusqu&amp;rsquo;à la sortie.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Solution1&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/sol1.jpg&#34; title=&#34;Solution utilisant une vis sans fin&#34;&gt;&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;avantage de ce système est qu&amp;rsquo;il est peut encombrant. En revanche, la roue sans fin est difficile à usiner et un problème de positionnement et d&amp;rsquo;orientation du bonbon peut survenir.&lt;/p&gt;
+&lt;h3 id=&#34;solution-2&#34;&gt;Solution 2&lt;/h3&gt;
+&lt;p&gt;La deuxième solution utilise une roue encochée. Cette dernière est enfermée dans un boitier. Le bonbon est pris dans l&amp;rsquo;encoche en entrée, la roue tourne et le bonbon est libéré en sortie.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Solution2&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/sol2.jpg&#34; title=&#34;Solution utilisant une roue encochée&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Le système est un peu encombrant mais est simple et l&amp;rsquo;intervalle de temps de chute des bonbons est facilement ajustable.&lt;/p&gt;
+&lt;h3 id=&#34;solution-3&#34;&gt;Solution 3&lt;/h3&gt;
+&lt;p&gt;La troisième solution pensée fonctionne avec un système de bielle manivelle. Une tige poussoir est fixé au mécanisme bielle / manivelle. Ainsi, le bonbon est libéré puis poussé par la tige dans l&amp;rsquo;orifice de sortie tout en bloquant le bonbon suivant.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Solution3&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/sol3.jpg&#34; title=&#34;Solution utilisant une bielle/manivelle&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Le mécanisme est facilement réalisable mais gérer la course du poussoir peut être une difficulté.&lt;/p&gt;
+&lt;h2 id=&#34;conception&#34;&gt;Conception&lt;/h2&gt;
+&lt;p&gt;Il convient de réaliser le dessin d&amp;rsquo;ensemble du système et les dessins de définition des pièces, notamment de la roue encochée et des arbres de trasmissions. Un dessin du sous-ensemble de transmission est également réalisé.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Dessin d&amp;rsquo;ensemble&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/dess-ens.jpg&#34; title=&#34;Dessin d&amp;#39;ensemble du distributeur&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;fabrication&#34;&gt;Fabrication&lt;/h2&gt;
+&lt;h3 id=&#34;roue-à-encoche&#34;&gt;Roue à encoche&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Brut : 500x500 / contre-plaqué&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Phase 100 :  perceuse colonne / scie cloche 105 mm - Découpage d&amp;rsquo;un rond de Ø105 mm&lt;/li&gt;
+&lt;li&gt;Phase 200 : perceuse à main / forêt Ø6mm - Perçage d&amp;rsquo;un trou centrale de Ø6 mm&lt;/li&gt;
+&lt;li&gt;Phase 300 : scie sauteuse - Découpage de l&amp;rsquo;encoche&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;arbre-1&#34;&gt;Arbre 1&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Brut :  longueur 150 mm diamètre 8 mm / acier&lt;/strong&gt;
+Usinage au tour&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Phase 100 :
+&lt;ul&gt;
+&lt;li&gt;Op 1 &amp;amp; 2 :  outil à charioter dresser&lt;/li&gt;
+&lt;li&gt;Op 3 : outil à chanfreiner&lt;/li&gt;
+&lt;li&gt;Op 4 : outil à tronçonner&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Phase 200 :
+&lt;ul&gt;
+&lt;li&gt;Op 1 &amp;amp; 2 :  outil à charioter dresser&lt;/li&gt;
+&lt;li&gt;Op 3 : outil à chanfreiner&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;assemblage&#34;&gt;Assemblage&lt;/h3&gt;
+&lt;p&gt;On assemble le système.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img alt=&#34;Assemblage&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/assemblage1.jpg&#34; title=&#34;Roue encochée et du système de transmission assemblés&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;img alt=&#34;Assemblage&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/distributeur.jpg&#34; title=&#34;Distributeur assemblé&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;tests&#34;&gt;Tests&lt;/h2&gt;
+&lt;p&gt;Des tests sont effectués et le système est ajusté.&lt;/p&gt;
+&lt;p&gt;Des améliorations sont encore possibles :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pérennité : utiliser de l&amp;rsquo;aluminium&lt;/li&gt;
+&lt;li&gt;Esthétique&lt;/li&gt;
+&lt;li&gt;Stabilité&lt;/li&gt;
+&lt;li&gt;Améliorer la coaxialité des perçages et utiliser des roulements pour fluidifier le système&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorat GMP</title>
+      <link>//localhost:1313/lea_jean/project/tutorat/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/tutorat/</guid>
+      <description>&lt;p&gt;Avec la crise sanitaire due au Covid-19, se réunir pour étudier est devenu plus difficile, pourtant beaucoup d&amp;rsquo;étudiants ont des lacunes ou des difficultés. Un groupe d&amp;rsquo;étudiants, soutenu par les professeurs, ont donc décidé de &lt;strong&gt;mettre en place un tutorat&lt;/strong&gt; entre étudiants au sein du département GMP de l&amp;rsquo;IUT de Bordeaux. L&amp;rsquo;objectif est de s&amp;rsquo;entraider dans les études, de se réunir et de créer un lien entre les différentes promotions du département (1ère et 2ème année FI, 1ère et 2ème année apprentis, LP&amp;hellip;).&lt;/p&gt;
+&lt;p&gt;Une page Moodle avec des sondages pour orienter notre axe de travail, et des ressources pour les étudiants a été créée. Une prise de contact avec les différentes promotions a également été effectuée.&lt;/p&gt;
+&lt;p&gt;Ainsi des séances de tutorat ont été organisées, ainsi qu&amp;rsquo;une séance de rencontre LP et 2èmes années FI pour s&amp;rsquo;enrichir et se renseigner. Des cours vidéos et des fiches d&amp;rsquo;aides pour des cours spécifiques mais également de méthodes de travail ont également été réalisées.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wall-E - Robot labyrinthe</title>
+      <link>//localhost:1313/lea_jean/project/wall-e/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/wall-e/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

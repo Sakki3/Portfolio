@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Léa JEAN</title>
+    <link>//localhost:1313/lea_jean/authors/</link>
+    <description>Recent content in Authors on Léa JEAN</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>fr-fr</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="//localhost:1313/lea_jean/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>//localhost:1313/lea_jean/authors/admin/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/authors/admin/</guid>
+      <description>&lt;p&gt;Titulaire d’un &lt;strong&gt;DUT Génie Mécanique et Productique - parcours robotique&lt;/strong&gt;, je souhaite maintenant me spécialiser dans la &lt;strong&gt;fabrication industrielle&lt;/strong&gt; ou la &lt;strong&gt;métallerie&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;J’aime rendre réel un concept, et toutes les techniques de fabrication, qu’elles soient plutôt manuelles ou liées à des machines, me fascinent. Le travail du métal est un savoir-faire passionnant et captivant, de même que pour tous types de matériaux.&lt;/p&gt;
+&lt;p&gt;Malgré mon cursus en robotique, je ne souhaite pas me spécialiser dans ce domaine. Je considère ce socle de connaissances et de compétences comme culture technologique qui me permet de comprendre, par exemple, les enjeux du domaine et le fonctionnement des robots de production notamment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robert Ford</title>
+      <link>//localhost:1313/lea_jean/authors/robert-ford/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/authors/robert-ford/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

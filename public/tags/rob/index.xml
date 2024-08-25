@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rob on Léa JEAN</title>
+    <link>//localhost:1313/lea_jean/tags/rob/</link>
+    <description>Recent content in Rob on Léa JEAN</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>fr-fr</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Tue, 08 Feb 2022 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="//localhost:1313/lea_jean/tags/rob/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Construction d&#39;une structure de Kapla</title>
+      <link>//localhost:1313/lea_jean/project/kapla/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/kapla/</guid>
+      <description>&lt;h2 id=&#34;cahier-des-charges&#34;&gt;Cahier des charges&lt;/h2&gt;
+&lt;p&gt;Le projet s&amp;rsquo;est développé dans le cadre du semestre 4 du parcours robotique de l&amp;rsquo;IUT de Bordeaux, site de Gradignan. L&amp;rsquo;objectif est, à partir d’un tableau recensant les coordonnées (base, position, orientation) des Kapla, de réaliser une structure avec ces mêmes Kapla.&lt;/p&gt;
+&lt;p&gt;Le matériel a disposition comprend :&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;1 convoyeur,&lt;/li&gt;
+&lt;li&gt;2 dobots Magician (robots 4 axes),&lt;/li&gt;
+&lt;li&gt;des &lt;a href=&#34;https://www.kapla.com/fr/&#34;&gt;Kapla&lt;/a&gt; de dimensions 25x20x70 mm,&lt;/li&gt;
+&lt;li&gt;1 caméra Intel D435i RealSense Depth,&lt;/li&gt;
+&lt;li&gt;1 raspberry pi,&lt;/li&gt;
+&lt;li&gt;et divers composants comme des servomoteurs Dynamixel MX-12W, etc&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Le cycle à suivre est celui-ci :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Prise d&amp;rsquo;un Kapla dans le magasin par le dobot 1&lt;/li&gt;
+&lt;li&gt;Dépose sur le convoyeur pour transfert vers le dobot 2&lt;/li&gt;
+&lt;li&gt;Reconnaissance du Kapla&lt;/li&gt;
+&lt;li&gt;Prise du Kapla par le dobot 2&lt;/li&gt;
+&lt;li&gt;Réalisation de la structure&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;L&amp;rsquo;effecteur des dobots est au choix : une pince pneumatique ou une ventouse.&lt;/p&gt;
+&lt;h2 id=&#34;planification&#34;&gt;Planification&lt;/h2&gt;
+&lt;p&gt;Pour une organisation optimale, une planification du projet est nécessaire. Il faut pour cela identifier les différentes tâches à réaliser et leur chronologie, les répartir entre les membres de l&amp;rsquo;équipe, et les répartir dans le temps de manière à respecter les jalons. Il convient alors d&amp;rsquo;établir un GANTT.&lt;/p&gt;
+&lt;h2 id=&#34;identification-des-problématiques-et-recherche-de-solutions&#34;&gt;Identification des problématiques et recherche de solutions&lt;/h2&gt;
+&lt;h3 id=&#34;problématique-1--lorientation-des-kapla&#34;&gt;Problématique 1 : l&amp;rsquo;orientation des Kapla&lt;/h3&gt;
+&lt;p&gt;Dans le magasin, les Kapla ont tous la même orientation, et il faut que le Kapla puisse prendre n&amp;rsquo;importe quelle orientation suivant les besoins de la structure finale. Cependant, l’effecteur du dobot ne peux pas effectuer de rotations suivant x et y, toutes les orientations ne sont donc pas possibles.&lt;/p&gt;
+&lt;h4 id=&#34;recherche-de-solutions&#34;&gt;Recherche de solutions&lt;/h4&gt;
+&lt;p&gt;Plusieurs solutions ont alors émergées. La première est de faire tomber le Kapla en fin de convoyeur dans une boîte avec une pente. En chutant le long de la pente, le kapla se retourne. L’inconvénient est que le Kapla peut se coincer s’il ne tombe pas directement dans la bonne position. Cette idée n’est donc pas la plus appropriée. Pour passer outre ce problème, nous avons réfléchi à une solution semblable mais plus &amp;ldquo;sûre&amp;rdquo;. Nous avons donc conçu une solution motorisée en forme de “L” permettant de retourner le Kapla en activant un moteur.&lt;/p&gt;
+&lt;h4 id=&#34;choix-de-solution&#34;&gt;Choix de solution&lt;/h4&gt;
+&lt;p&gt;Nous optons ainsi de développer la structure en “L” pour le système.&lt;/p&gt;
+&lt;h3 id=&#34;problématique-2--détection-du-kapla&#34;&gt;Problématique 2 : détection du Kapla&lt;/h3&gt;
+&lt;p&gt;Pour que le système fonctionne, les dobots doivent pouvoir trouver les Kapla pour les saisir.&lt;/p&gt;
+&lt;h4 id=&#34;recherche-de-solutions-1&#34;&gt;Recherche de solutions&lt;/h4&gt;
+&lt;p&gt;Nous avons donc pensé ici à trois solutions.
+La première est de reposer le transport des Kapla sur l’exactitude de répétition de mouvements des robots et du convoyeur dans le but de ne pas utiliser de capteur de détection, et de tester notre convoyeur et nos dobots de manière à ce que les Kaplas puissent être posés toujours aux mêmes endroits sur le convoyeur par le dobot 1 et récupéré toujours au même endroit par le dobot 2. Or cette solution est hasardeuse.
+La deuxième est d’utiliser un capteur de présence laser pour retourner l’information de la présence du Kapla en bout de convoyeur. Avec ce système, la récupéreration du Kapla par le dobot 2 se fait au même endroit.
+La troisième est d’utiliser une caméra et une intelligence artificielle de reconnaissance d’image et de détection de centre de gravité. En ayant le centre de gravité, nous pouvons déterminer précisément le point où le dobot 2 doit saisir le Kapla. L’avantage principal de ce système est de pouvoir déterminer la position du Kapla tant qu’il est dans le champ de vision de la caméra, et permet de corriger des erreurs de rotation au niveau de l’axe Z.&lt;/p&gt;
+&lt;h4 id=&#34;choix-de-solution-1&#34;&gt;Choix de solution&lt;/h4&gt;
+&lt;p&gt;Le choix s&amp;rsquo;est d&amp;rsquo;abord porté sur la troisième solution, soit une détection par caméra, solution qui par manque de temps n’as pas pu aboutir. Nous avons donc finalement opté pour le capteur de présence.&lt;/p&gt;
+&lt;h3 id=&#34;problématique-3--lecture-de-fichier&#34;&gt;Problématique 3 : lecture de fichier&lt;/h3&gt;
+&lt;p&gt;Les Kaplas ne sont pas préalablement triés dans le fichier json fourni. La problématique qui se présente ici est donc l&amp;rsquo;ordre de pose des Kapla qui nous est inconnu.&lt;/p&gt;
+&lt;h4 id=&#34;choix-de-solution-2&#34;&gt;Choix de solution&lt;/h4&gt;
+&lt;p&gt;Il convient alors de réaliser un code de tri qui, après importation du fichier
+json, renvoie le fichier dans l&amp;rsquo;ordre de dépose sur la zone de charge.&lt;/p&gt;
+&lt;h3 id=&#34;problématique-4--choix-de-leffecteur&#34;&gt;Problématique 4 : choix de l&amp;rsquo;effecteur&lt;/h3&gt;
+&lt;p&gt;Le choix nous est donné entre une ventouse ou une pince pneumatique comme effecteur des dobots. Ce choix influe sur la prise des Kapla. Ainsi, l&amp;rsquo;effecteur utilisé ici est une ventouse.&lt;/p&gt;
+&lt;h2 id=&#34;modélisation-et-réalisation-de-lensemble-du-système&#34;&gt;Modélisation et réalisation de l&amp;rsquo;ensemble du système&lt;/h2&gt;
+&lt;h3 id=&#34;structure-en-l&#34;&gt;Structure en &amp;ldquo;L&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;Dans le but de pouvoir changer l&amp;rsquo;orientation des Kapla suivant les besoin de la structure en Kapla finale, il convient de concevoir un système. Le système conçu ici est une structure en “L”. Ce nom lui vient de la forme principale de la forme de la structure qui vue de profil ressemble à un “L”.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Dessin d&amp;rsquo;ensemble&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/dess-ens-l.png&#34; title=&#34;Dessin d&amp;#39;ensemble de la structure en L&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Modélisation de l&amp;rsquo;ensemble&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/L.png&#34; title=&#34;Modélisation 3D de la structure en L sur OnShape&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Dessin d&amp;rsquo;ensemble de la structure en &amp;ldquo;L&amp;rdquo;&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Modélisation 3D de la structure en &amp;ldquo;L&amp;rdquo; sur OnShape&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Le principe de sa structure est relativement simple. Un servomoteur Dynamixel MX-12W, commandé en angle, bascule de 90° lorsqu&amp;rsquo;on le lui demande. Le dobot 2 saisit le Kapla sur le convoyeur et le positionne à l’intérieur du “L”. Ainsi, lorsque le Kapla est allongé, nous pouvons choisir si nous voulons le positionner au sol, en longueur ou en largeur. Le &amp;ldquo;L&amp;rdquo; dispose également d’une encoche et d’un côté plus long que l’autre pour pouvoir positionner le Kapla debout. Ainsi, après avoir saisi le Kapla sur le convoyeur, la ventouse réalise une rotation suivant l’axe z pour pouvoir positionner le Kapla dans la petite encoche.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Structure en L&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/structure-l.jpg&#34; title=&#34;Structure en L fabriquée&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Le système est d&amp;rsquo;abord modélisé en 3D et assemblé sur le logiciel de CAO en ligne &lt;a href=&#34;https://www.onshape.com/en/&#34;&gt;&lt;em&gt;OnShape&lt;/em&gt;&lt;/a&gt;. Ensuite, le &amp;ldquo;L&amp;rdquo; et sa fixation au moteur sont imprimésen PLA avec des imprimantes 3D à filament. On utilise une découpeuse laser pour réaliser le socle en PMMA et on scie une tige en métal qui fixera le &amp;ldquo;L&amp;rdquo; à la fixation. Enfin, on assemble le tout : les pièce du socle sont emboités, la fixation est vissée au moteur et le moteur est vissé au socle, la tige s&amp;rsquo;insert dans la fixation et le &amp;ldquo;L&amp;rdquo;.&lt;/p&gt;
+&lt;h3 id=&#34;support-de-la-caméra&#34;&gt;Support de la caméra&lt;/h3&gt;
+&lt;p&gt;Dans le cas de la détection de Kapla par caméra, un support pour fixer cette dernière est nécessaire. Celui-ci se fixe sur le convoyeur et est conçu de manière à ce que la caméra donne une vue du dessus du convoyeur. Les dimensions sont pensées de manière à pouvoir fixer la caméra mais également de manière à ce que le support ne gène pas les dobots pendant leurs déplacements.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Dessin de définition&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/support-cam-kapla.png&#34; title=&#34;Dessin de définition du support caméra&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Modélisation de l&amp;rsquo;ensemble&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/support-cam.png&#34; title=&#34;Modélisation 3D du support caméra sur OnShape&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Modélisation&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/supp-cam-kapla.jpg&#34; title=&#34;Support caméra fabriqué&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Dessin de définition du support caméra&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Modélisation 3D du support caméra sur OnShape&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Support caméra fabriqué&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Le support est d&amp;rsquo;abord modélisé sur OnShape puis fabriqué. Un morceau de tôle est découpé à la cisailleuse aux dimensions voulues. La plaque est ensuite percée à la perceuse à colonne. Certains trous serviront à visser le support au convoyeur, tandis que les autres serviront à visser la caméra au support. Enfin, on plie la tôle. Afin que le support ne fléchisse pas sous le poids de la caméra, un morceau de tôle est soudé par point en renfort.&lt;/p&gt;
+&lt;h3 id=&#34;ensemble-du-système&#34;&gt;Ensemble du système&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Schéma de l&amp;rsquo;ensemble&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/schema-ens-kapla.jpg&#34; title=&#34;Schéma du système&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Modélisation de l&amp;rsquo;ensemble&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/ens-kapla.jpg&#34; title=&#34;Modélisation 3D du système sur OnShape&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Schéma du système&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Modélisation 3D du système sur OnShape&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;programmation&#34;&gt;Programmation&lt;/h2&gt;
+&lt;h3 id=&#34;programmation-de-la-structure-en-l&#34;&gt;Programmation de la structure en &amp;ldquo;L&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;Dans le but de réaliser la programmation du moteur dynamixel dans la structure, à l’aide d’une Arduino, nous utilisons la librairie &lt;em&gt;ardyno&lt;/em&gt; afin d’importer &lt;em&gt;“dynamixelMotor”&lt;/em&gt;. La fonction &lt;em&gt;motor.goalPosition()&lt;/em&gt; est ensuite utilisée pour set l’angle du moteur.&lt;/p&gt;
+&lt;p&gt;Par la suite, il nous est nécessaire de pouvoir exploiter ce programme avec des appellations dans un programme en python. On réalise donc une liaison port série afin de communiquer avec l’Arduino depuis un programme en python. Pour cela nous utiliserons la bibliothèque &lt;em&gt;pyserial&lt;/em&gt; afin d’importer &lt;em&gt;“Serial”&lt;/em&gt;. On pourra alors taper la commande &lt;em&gt;serial.Serial(port,baudrate,timeout)&lt;/em&gt; afin de se connecter au port série de l’Arduino.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;L&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/structure-l-vid2.gif&#34; title=&#34;Structure en L en fonctionnement&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;programmation-de-la-caméra&#34;&gt;Programmation de la caméra&lt;/h3&gt;
+&lt;p&gt;Afin de faire une étude de la position du Kapla sur le convoyeur, il est possible d&amp;rsquo;utiliser utiliser une caméra et une intelligence artificielle de reconnaissance d’image et de détection de centre de gravité. Un logigramme est préalablement construit pour structurer le programme. En utilisant un code trouvé sur Internet permettant de régler le filtre en direct sur une image ou une vidéo, nous choisissons les valeurs en codage HSV les plus adaptées pour extraire seulement le Kapla de l&amp;rsquo;image.&lt;/p&gt;
+&lt;p&gt;Au lancement des programmes on observe l’apparition de lignes vertes qui représentent les lignes verticales du Kapla, et de lignes rouges qui représentent les lignes horizontales du Kapla. Néanmoins, par faute de temps, le programme n’est pas fini et on voit apparaître de nombreux problèmes sur la détermination des lignes. En achevant ce programme, il est possible de connaître les 4 coins du Kapla et de son centre.&lt;/p&gt;
+&lt;p&gt;Nos résultats sont les suivants :&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Résultats&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/res-cam.jpg&#34; title=&#34;Résultats obtenus par la programmation de la caméra&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;capteur-laser&#34;&gt;Capteur laser&lt;/h3&gt;
+&lt;p&gt;Comme la caméra s&amp;rsquo;est avérée plus compliquée à utiliser et à intégrer que prévu dans la limite du temps imparti, nous avons donc utilisé le capteur pour détecter le Kapla en fin de course sur le convoyeur. Lorsque le capteur le détecte, le convoyeur s&amp;rsquo;arrête.&lt;/p&gt;
+&lt;h3 id=&#34;code-du-tri-des-kapla&#34;&gt;Code du tri des Kapla&lt;/h3&gt;
+&lt;p&gt;Afin de faciliter la prise et la pose des Kapla, on passe par une étape de tri de ces derniers. On a décidé de prendre les Kapla du plus en bas au plus en haut (en les prenant à terre) en remontant progressivement. Le tri se fait donc selon l’axe z. On parcourt ainsi la liste des positions des Kapla en les sélectionnant avec le z le plus bas.&lt;/p&gt;
+&lt;h3 id=&#34;code-principal&#34;&gt;Code principal&lt;/h3&gt;
+&lt;p&gt;Le code dit principal est le code obtenu après l’intégration de tous les morceaux de code séparés. Pour la logique globale qui en découle, on établit en amont un algorithme permettant de mieux comprendre la structure et l&amp;rsquo;algorithme de notre code. Pour le code principal, on intègre les différentes parties de code faites en amont et on les rassemble sous forme de fonctions que nous avons simplement à appeler dans le &lt;em&gt;main&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Logigramme&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/logi-kapla.jpg&#34; title=&#34;Logigramme du programme&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;système-final&#34;&gt;Système final&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Photo du système&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/kapla.jpg&#34; title=&#34;Photo du système (vue de haut)&#34;&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;img alt=&#34;Photo du système&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/kapla2.jpg&#34; title=&#34;Photo du système (vue de côté)&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Photo du système (vue de haut)&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;Photo du système (vue de côté)&lt;/strong&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Ci-dessous, une vidéo du système en fonctionnement à la fin du projet :&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Système en fonctionnement&#34; src=&#34;//localhost:1313/lea_jean/portfolios/lea-jean/img/sys-kapla.gif&#34; title=&#34;Système en fonctionnement&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Wall-E - Robot labyrinthe</title>
+      <link>//localhost:1313/lea_jean/project/wall-e/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/wall-e/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

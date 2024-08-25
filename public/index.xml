@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Léa JEAN</title>
+    <link>//localhost:1313/lea_jean/</link>
+    <description>Recent content on Léa JEAN</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>fr-fr</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="//localhost:1313/lea_jean/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>//localhost:1313/lea_jean/talk/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>//localhost:1313/lea_jean/project/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Courses</title>
+      <link>//localhost:1313/lea_jean/courses/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/courses/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>//localhost:1313/lea_jean/publication/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/publication/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
+      <link>//localhost:1313/lea_jean/post/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>//localhost:1313/lea_jean/slides/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/slides/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Com-Trans on Léa JEAN</title>
+    <link>//localhost:1313/lea_jean/tags/com-trans/</link>
+    <description>Recent content in Com-Trans on Léa JEAN</description>
+    <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
+    <language>fr-fr</language>
+    <copyright>Copyright &amp;copy; {year}</copyright>
+    <lastBuildDate>Tue, 01 Feb 2022 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="//localhost:1313/lea_jean/tags/com-trans/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Accueil du public (FabLab)</title>
+      <link>//localhost:1313/lea_jean/project/acc-fablab/</link>
+      <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/acc-fablab/</guid>
+      <description>&lt;p&gt;Le Fablab Coh@bit est un espace collaboratif de fabrication numérique se trouvant sur le campus de Gradignan de l&amp;rsquo;IUT de Bordeaux. L&amp;rsquo;association est ouverte à tous les particuliers souhaitant utiliser ses ressources.&lt;/p&gt;
+&lt;p&gt;La mission du service civique effectué a pour nature l&amp;rsquo;&lt;strong&gt;accueil du public&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Cela consiste d&amp;rsquo;une part à la &lt;strong&gt;formation&lt;/strong&gt; des adhérents ou étudiants aux &lt;strong&gt;machines&lt;/strong&gt; (découpe laser, imprimante 3D, fraiseuse numérique Charly Robot) et aux &lt;strong&gt;logiciels&lt;/strong&gt; utilisés au Fablab (FreeCAD, Ultimaker Cura, Prusa Slicer, Inkscape). La formation des machines prend ainsi en compte la &lt;strong&gt;préparation des fichiers&lt;/strong&gt; pour qu&amp;rsquo;ils soient utilisables pour la machines, par exemple la préparation des fichiers de découpe pour la découpe laser.&lt;/p&gt;
+&lt;p&gt;D&amp;rsquo;autre part, il s&amp;rsquo;agit d&amp;rsquo;accompagner les adhérents dans leurs projets en les aidant dans l&amp;rsquo;utilisation des machines ou bien en leur apportant d&amp;rsquo;autres connaissances techniques par exemple dans le domaine de la mécanique ou sur la faisabilité de leur projet, si besoin.&lt;/p&gt;
+&lt;p&gt;La ligne directrice de cette mission est principalement la &lt;strong&gt;transmission des connaissances&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ambassadrice RoboCup 2021</title>
+      <link>//localhost:1313/lea_jean/project/robocup/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/robocup/</guid>
+      <description>&lt;p&gt;L&amp;rsquo;édition 2021 (reportée en 2023) de la &lt;a href=&#34;https://www.robocup.fr/&#34;&gt;RoboCup&lt;/a&gt; devait se dérouler à Bordeaux. Il s&amp;rsquo;agit de la plus grande compétition internationale de robotique eet d&amp;rsquo;intelligence artificielle du monde.&lt;/p&gt;
+&lt;p&gt;Pour promouvoir cette compétition en France, plusieurs étudiants en robotique dans la métropole se sont portés volontaires pour former une équipe ambassadrice réunie autour du robot &lt;em&gt;Cruzr&lt;/em&gt;, ambassadeur officiel de la RoboCup.&lt;/p&gt;
+&lt;p&gt;Nous sommes ainsi allés promouvoir le salon dans différents lieux de Bordeaux Métropole dont le cinéma Mégarama, le Salon de l&amp;rsquo;Etudiant et Cap Sciences. Notre tâche était de présenter la compétition et de répondre aux questions des personnes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tutorat GMP</title>
+      <link>//localhost:1313/lea_jean/project/tutorat/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/lea_jean/project/tutorat/</guid>
+      <description>&lt;p&gt;Avec la crise sanitaire due au Covid-19, se réunir pour étudier est devenu plus difficile, pourtant beaucoup d&amp;rsquo;étudiants ont des lacunes ou des difficultés. Un groupe d&amp;rsquo;étudiants, soutenu par les professeurs, ont donc décidé de &lt;strong&gt;mettre en place un tutorat&lt;/strong&gt; entre étudiants au sein du département GMP de l&amp;rsquo;IUT de Bordeaux. L&amp;rsquo;objectif est de s&amp;rsquo;entraider dans les études, de se réunir et de créer un lien entre les différentes promotions du département (1ère et 2ème année FI, 1ère et 2ème année apprentis, LP&amp;hellip;).&lt;/p&gt;
+&lt;p&gt;Une page Moodle avec des sondages pour orienter notre axe de travail, et des ressources pour les étudiants a été créée. Une prise de contact avec les différentes promotions a également été effectuée.&lt;/p&gt;
+&lt;p&gt;Ainsi des séances de tutorat ont été organisées, ainsi qu&amp;rsquo;une séance de rencontre LP et 2èmes années FI pour s&amp;rsquo;enrichir et se renseigner. Des cours vidéos et des fiches d&amp;rsquo;aides pour des cours spécifiques mais également de méthodes de travail ont également été réalisées.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
