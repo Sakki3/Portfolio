@@ -24,33 +24,45 @@ jobs:
     runs-on: ubuntu-latest
     env:
       HUGO_VERSION: 0.128.0
+      TZ: Europe/Paris  # Définir le fuseau horaire sur Europe/Paris
     steps:
-      - name: Install Hugo CLI
-        uses: peaceiris/actions-hugo@v4.0.0
-        with:
-          hugo-version: ${{ env.HUGO_VERSION }}
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install Hugo CLI
+        uses: peaceiris/actions-hugo@v2.3.0  # Mettez à jour vers la dernière version disponible
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
-          TZ: America/Los_Angeles
+          TZ: Europe/Paris  # Assurer que le fuseau horaire est défini pour la construction
         run: |
           hugo \
             --gc \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
