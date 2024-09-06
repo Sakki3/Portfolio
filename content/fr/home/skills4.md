@@ -18,25 +18,21 @@ subtitle = "LANGAGES INFORMATIQUES"
   icon = "code"
   icon_pack = "fas"
   name = "Code ISO / G-Code"
-  parcent = "75%"
 
 [[feature]]
   icon = "html5"
   icon_pack = "fab"
   name = "HTML/CSS"
-  parcent = "90%"
   
  [[feature]]
   icon = "python"
   icon_pack = "fab"
   name = "Python"
-  parcent = "50%"
   
   [[feature]]
   icon = "code"
   icon_pack = "fas"
   name = "C++ (Arduino)"
-  parcent = "50%"
 
 +++
 

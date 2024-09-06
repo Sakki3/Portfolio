@@ -89,12 +89,12 @@ Dans le but de pouvoir changer l'orientation des Kapla suivant les besoin de la 
 
 |||
 |:---:|:---:|
-|![Dessin d'ensemble](/portfolios/lea-jean/img/dess-ens-l.png "Dessin d'ensemble de la structure en L")|![Modélisation de l'ensemble](/portfolios/lea-jean/img/L.png "Modélisation 3D de la structure en L sur OnShape")|
+|![Dessin d'ensemble](/lea_jean/img/dess-ens-l.png "Dessin d'ensemble de la structure en L")|![Modélisation de l'ensemble](/lea_jean/img/L.png "Modélisation 3D de la structure en L sur OnShape")|
 |**Dessin d'ensemble de la structure en "L"**|**Modélisation 3D de la structure en "L" sur OnShape**|
 
 Le principe de sa structure est relativement simple. Un servomoteur Dynamixel MX-12W, commandé en angle, bascule de 90° lorsqu'on le lui demande. Le dobot 2 saisit le Kapla sur le convoyeur et le positionne à l’intérieur du “L”. Ainsi, lorsque le Kapla est allongé, nous pouvons choisir si nous voulons le positionner au sol, en longueur ou en largeur. Le "L" dispose également d’une encoche et d’un côté plus long que l’autre pour pouvoir positionner le Kapla debout. Ainsi, après avoir saisi le Kapla sur le convoyeur, la ventouse réalise une rotation suivant l’axe z pour pouvoir positionner le Kapla dans la petite encoche.
 
-![Structure en L](/portfolios/lea-jean/img/structure-l.jpg "Structure en L fabriquée")
+![Structure en L](/lea_jean/img/structure-l.jpg "Structure en L fabriquée")
 
 Le système est d'abord modélisé en 3D et assemblé sur le logiciel de CAO en ligne [*OnShape*](https://www.onshape.com/en/). Ensuite, le "L" et sa fixation au moteur sont imprimésen PLA avec des imprimantes 3D à filament. On utilise une découpeuse laser pour réaliser le socle en PMMA et on scie une tige en métal qui fixera le "L" à la fixation. Enfin, on assemble le tout : les pièce du socle sont emboités, la fixation est vissée au moteur et le moteur est vissé au socle, la tige s'insert dans la fixation et le "L".
 
@@ -104,7 +104,7 @@ Dans le cas de la détection de Kapla par caméra, un support pour fixer cette d
 
 ||||
 |:---:|:---:|:---:|
-|![Dessin de définition](/portfolios/lea-jean/img/support-cam-kapla.png "Dessin de définition du support caméra")|![Modélisation de l'ensemble](/portfolios/lea-jean/img/support-cam.png "Modélisation 3D du support caméra sur OnShape")|![Modélisation](/portfolios/lea-jean/img/supp-cam-kapla.jpg "Support caméra fabriqué")|
+|![Dessin de définition](/lea_jean/img/support-cam-kapla.png "Dessin de définition du support caméra")|![Modélisation de l'ensemble](/lea_jean/img/support-cam.png "Modélisation 3D du support caméra sur OnShape")|![Modélisation](/lea_jean/img/supp-cam-kapla.jpg "Support caméra fabriqué")|
 |**Dessin de définition du support caméra**|**Modélisation 3D du support caméra sur OnShape**|**Support caméra fabriqué**|
 
 Le support est d'abord modélisé sur OnShape puis fabriqué. Un morceau de tôle est découpé à la cisailleuse aux dimensions voulues. La plaque est ensuite percée à la perceuse à colonne. Certains trous serviront à visser le support au convoyeur, tandis que les autres serviront à visser la caméra au support. Enfin, on plie la tôle. Afin que le support ne fléchisse pas sous le poids de la caméra, un morceau de tôle est soudé par point en renfort.
@@ -113,7 +113,7 @@ Le support est d'abord modélisé sur OnShape puis fabriqué. Un morceau de tôl
 
 |||
 |:---:|:---:|
-|![Schéma de l'ensemble](/portfolios/lea-jean/img/schema-ens-kapla.jpg "Schéma du système")|![Modélisation de l'ensemble](/portfolios/lea-jean/img/ens-kapla.jpg "Modélisation 3D du système sur OnShape")|
+|![Schéma de l'ensemble](/lea_jean/img/schema-ens-kapla.jpg "Schéma du système")|![Modélisation de l'ensemble](/lea_jean/img/ens-kapla.jpg "Modélisation 3D du système sur OnShape")|
 |**Schéma du système**|**Modélisation 3D du système sur OnShape**|
 
 ## Programmation
@@ -124,7 +124,7 @@ Dans le but de réaliser la programmation du moteur dynamixel dans la structure,
 
 Par la suite, il nous est nécessaire de pouvoir exploiter ce programme avec des appellations dans un programme en python. On réalise donc une liaison port série afin de communiquer avec l’Arduino depuis un programme en python. Pour cela nous utiliserons la bibliothèque *pyserial* afin d’importer *“Serial”*. On pourra alors taper la commande *serial.Serial(port,baudrate,timeout)* afin de se connecter au port série de l’Arduino.
 
-![L](/portfolios/lea-jean/img/structure-l-vid2.gif "Structure en L en fonctionnement")
+![L](/lea_jean/img/structure-l-vid2.gif "Structure en L en fonctionnement")
 
 ### Programmation de la caméra
 
@@ -134,7 +134,7 @@ Au lancement des programmes on observe l’apparition de lignes vertes qui repr�
 
 Nos résultats sont les suivants : 
 
-![Résultats](/portfolios/lea-jean/img/res-cam.jpg "Résultats obtenus par la programmation de la caméra")
+![Résultats](/lea_jean/img/res-cam.jpg "Résultats obtenus par la programmation de la caméra")
 
 ### Capteur laser
 
@@ -148,15 +148,15 @@ Afin de faciliter la prise et la pose des Kapla, on passe par une étape de tri 
 
 Le code dit principal est le code obtenu après l’intégration de tous les morceaux de code séparés. Pour la logique globale qui en découle, on établit en amont un algorithme permettant de mieux comprendre la structure et l'algorithme de notre code. Pour le code principal, on intègre les différentes parties de code faites en amont et on les rassemble sous forme de fonctions que nous avons simplement à appeler dans le *main*.
 
-![Logigramme](/portfolios/lea-jean/img/logi-kapla.jpg "Logigramme du programme")
+![Logigramme](/lea_jean/img/logi-kapla.jpg "Logigramme du programme")
 
 ## Système final
 
 |||
 |:---:|:---:|
-|![Photo du système](/portfolios/lea-jean/img/kapla.jpg "Photo du système (vue de haut)")|![Photo du système](/portfolios/lea-jean/img/kapla2.jpg "Photo du système (vue de côté)")|
+|![Photo du système](/lea_jean/img/kapla.jpg "Photo du système (vue de haut)")|![Photo du système](/lea_jean/img/kapla2.jpg "Photo du système (vue de côté)")|
 |**Photo du système (vue de haut)**|**Photo du système (vue de côté)**|
 
 Ci-dessous, une vidéo du système en fonctionnement à la fin du projet :
 
-![Système en fonctionnement](/portfolios/lea-jean/img/sys-kapla.gif "Système en fonctionnement")
+![Système en fonctionnement](/lea_jean/img/sys-kapla.gif "Système en fonctionnement")

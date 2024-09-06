@@ -18,48 +18,40 @@ subtitle = "COMPÉTENCES TECHNIQUES"
 icon = "searchengin"
 icon_pack = "fab"
 name = "Lire et questionner un cahier des charges"
-parcent = "90%"
 
 [[feature]]
 icon = "cogs"
 icon_pack = "fas"
 name = "Choisir les solutions techniques les mieux adaptées aux contraintes de réalisation"
-parcent = "60%"
 
 [[feature]]
 icon = "tools"
 icon_pack = "fas"
 name = "Mettre en œuvre les outils métiers pour produire une solution complexe optimale"
-parcent = "65%"
 
 [[feature]]
 icon = "folder"
 icon_pack = "fas"
 name = "Élaborer un dossier technique exhaustif pour des pièces/systèmes complexes"
-parcent = "85%"
 
 [[feature]]
 icon = "chart-line"
 icon_pack = "fas"
 name = "Analyser les propriétés d'un matériau (résilience, élasticité , dureté)"
-parcent = "70%"
 
 [[feature]]
 icon = "industry"
 icon_pack = "fas"
 name = "Organiser une production"
-parcent = "70%"
 
 [[feature]]
 icon = "tools"
 icon_pack = "fas"
 name = "Souder au MIG"
-parcent = "50%"
 
 [[feature]]
 icon = "pencil-ruler"
 icon_pack = "fas"
 name = "CAO, CFAO et dessins techniques"
-parcent = "80%"
 
 +++

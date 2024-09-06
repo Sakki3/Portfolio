@@ -2,11 +2,14 @@
 {{ $page := .page }}
 
 <!-- Experience widget -->
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
+<div class="section-heading center-text">
     <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
-    {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
-    {{ with $drawing_image := .page.Params.drawing_image }}<img class="img-fluid" src="{{ printf "img/%s" $drawing_image | relURL }}" itemprop="image" alt="Drawing">{{ end }}
+  {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
+
+</div>
+<div class="row">
+  <div class="col-12 col-lg-4">
+    {{ with $drawing_image := .page.Params.drawing_image }}<img class="img-fluid img-media-queries" src="{{ printf "img/%s" $drawing_image | relURL }}" itemprop="image" alt="Drawing">{{ end }}
 
   </div>
   <div class="col-12 col-lg-8">
@@ -17,15 +20,11 @@
     {{ range $idx, $key := sort $page.Params.experience ".date_start" "desc" }}
     <div class="row experience">
       <!-- Timeline -->
-      <div class="col-auto text-center flex-column d-none d-sm-flex">
-        <div class="row h-50">
-          <div class="col {{if gt $idx 0}}border-right{{end}}">&nbsp;</div>
-          <div class="col">&nbsp;</div>
-        </div>
+      <div class="col-auto text-center flex-column d-none d-sm-flex experience_line">
         <div class="m-2">
           <span class="badge badge-pill border {{if not .date_end}}exp-fill{{end}}">&nbsp;</span>
         </div>
-        <div class="row h-50">
+        <div class="row h-100">
           <div class="col {{if lt $idx (sub $exp_len 1)}}border-right{{end}}">&nbsp;</div>
           <div class="col">&nbsp;</div>
         </div>

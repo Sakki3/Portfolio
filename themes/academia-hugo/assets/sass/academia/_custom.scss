@@ -1,0 +1,33 @@
+.btn-position-scroll {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.btn-position-scroll .btn {
+  text-align: center;
+}
+
+.btn-position-scroll .btn p {
+  margin-bottom: 2rem;
+}
+
+.btn-position-scroll .btn i {
+  transition: transform 0.3s ease;
+}
+
+.btn-position-scroll .btn:hover i {
+  transform: translateY(10px);
+  font-size: 3rem;
+  transition: transform 0.3s ease;
+
+}
+
+@media screen and (max-width: 990px) {
+
+  .btn-position-scroll {
+    display: none;
+  }
+}
+

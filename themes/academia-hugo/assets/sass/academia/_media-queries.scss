@@ -1,0 +1,32 @@
+@media screen and (max-width: 990px) {
+
+  #profile {
+    display: flex;
+    justify-content: center
+  }
+
+  #about .img-fluid {
+    width: 40% !important;
+  }
+
+
+  .btn-position-scroll, .img-media-queries, .experience_line {
+    display: none;
+  }
+
+  .hero_container {
+    width: 100% !important;
+  }
+
+  .home-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .parallax {
+    height: 100% !important;
+  }
+
+
+}

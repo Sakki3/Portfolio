@@ -31,14 +31,14 @@ Les mesures utiles à la conception ont été prises directement sur le fauteuil
 
 ||||
 |:---:|:---:|:---:|
-|![Modélisation](/portfolios/lea-jean/img/porte-gobelet.png "Modélisation du porte-gobelet")|![Modélisation](/portfolios/lea-jean/img/support-boisson-ensemble.png "Modélisation de l'ensemble")|![Modélisation](/portfolios/lea-jean/img/Rails.jpg "Modélisation du rail")|
+|![Modélisation](/lea_jean/img/porte-gobelet.png "Modélisation du porte-gobelet")|![Modélisation](/lea_jean/img/support-boisson-ensemble.png "Modélisation de l'ensemble")|![Modélisation](/lea_jean/img/Rails.jpg "Modélisation du rail")|
 |**Modélisation du porte-gobelet (vue isométrique)**|**Modélisation de l'ensemble (vue isométrique)**|**Modélisation du rail (vue isométrique)**|
 
 Les premiers prototypes sont imprimés en PLA avec une imprimante 3D à filament, sans remplissage à l'intérieur pour gagner du temps sur l'impression et économiser le fil. Plusieurs rencontres ont lieu avec le demandeur pour tester les prototypes et ajuster les dimensions. Par ailleurs, les bords et les coins sont arrondis pour éviter de se blesser.
 
 |||
 |---:|:---:|
-|![Prototype](/portfolios/lea-jean/img/proto2.jpg "Première version")|![Prototype](/portfolios/lea-jean/img/proto1.jpg "Première version")|
+|![Prototype](/lea_jean/img/proto2.jpg "Première version")|![Prototype](/lea_jean/img/proto1.jpg "Première version")|
 |**Première version du prototype imprimé en PLA**|
 
 ## Deuxième version
@@ -47,7 +47,7 @@ Le système de fixation entre les deux pièces est très hyperstatique et cela a
 
 ||
 |:---:|
-|![Prototype](/portfolios/lea-jean/img/proto3.jpg "Deuxième version")|
+|![Prototype](/lea_jean/img/proto3.jpg "Deuxième version")|
 |**Deuxième version du prototype imprimé en PLA**|
 
 La deuxième version du prototype est d'abord imprimé en plus petit (à droite sur la photo) pour vérifier l'assemblage des deux pièces, puis en taille réelle pour s'assurer des bonnes dimensions des rails. 
@@ -60,7 +60,7 @@ On modifie le système d'assemblage entre les deux blocs.
 
 ||
 |:---:|
-|![Prototype](/portfolios/lea-jean/img/proto4.jpg "Troisième version")|
+|![Prototype](/lea_jean/img/proto4.jpg "Troisième version")|
 |**Troisième version du prototype imprimé en PLA**|
 
 Le système fonctionne, est plus équilibré et plus solide au niveau de l'assemblage.
@@ -71,7 +71,7 @@ On modifie ici le design des pièces pour les rendre plus esthétiques.
 
 |||||
 |:---:|---:|:---:|:---:|
-|![Modèle](/portfolios/lea-jean/img/supp2.png "Quatrième version")|![Modèle](/portfolios/lea-jean/img/supp3.png "Quatrième version")|![Modèle](/portfolios/lea-jean/img/supp4.png "Quatrième version")|![Modèle](/portfolios/lea-jean/img/supp1.png "Quatrième version")|
+|![Modèle](/lea_jean/img/supp2.png "Quatrième version")|![Modèle](/lea_jean/img/supp3.png "Quatrième version")|![Modèle](/lea_jean/img/supp4.png "Quatrième version")|![Modèle](/lea_jean/img/supp1.png "Quatrième version")|
 |**Modèle du bloc porte-boisson**|**Modèle du bloc rails**||**Modèle de l'ensemble du support boisson**|
 
 On imprime ensuite les pièces avec une densité de 30%. L'impression a une durée estimée de 16h25 et consommera 155g de fil soit 52m.  Les pièces sont imprimées en noir, couleur souhaitée par le demandeur.

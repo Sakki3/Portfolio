@@ -547,3 +547,40 @@ ul.ul-edu li .description p.institution {
   height: 350px;
   width: 100%;
 }
+
+//=========
+.featurette_bloc{
+  background: #343a40;
+  transition: background 0.3s ease;
+
+  h3 {
+    transition: font-size 0.3s ease;
+  }
+
+  i {
+    transition: font-size 0.3s ease;
+  }
+
+  &:hover{
+    cursor: pointer;
+    background: #424950;
+    padding: 3rem;
+    h3{
+      font-size: 1.3rem;
+    }
+    i{
+      font-size: 3.3rem;
+    }
+  }
+}
+
+.project-card-bloc-custom{
+  background: #343a40;
+  transition: background 0.3s ease;
+
+  &:hover{
+    cursor: pointer;
+    background: #424950;
+
+  }
+}

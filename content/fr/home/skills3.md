@@ -18,25 +18,21 @@ subtitle = "LOGICIELS"
   icon = "draw-polygon"
   icon_pack = "fas"
   name = "Utiliser des logiciels de CAO et de CFAO (FreeCAD, Catia, SolidWorks, SolidEdge, OnShape, TopSolid)"
-  parcent = "90%"
   
 [[feature]]
   icon = "images"
   icon_pack = "fas"
   name = "Utiliser des logiciels de dessins et de manipulation d'images (Krita, GIMP, Inkscape)"
-  parcent = "90%"
   
 [[feature]]
   icon = "film"
   icon_pack = "fas"
   name = "Utiliser des logiciels de montage video et audio (Audacity, Filmora...)"
-  parcent = "90%"
   
 [[feature]]
   icon = "laptop-code"
   icon_pack = "fas"
   name = "Utiliser des logiciels de programmation (Sublime Text, Visual Studio Code, Processing, Arduino...)"
-  parcent = "90%"
 
 +++
 

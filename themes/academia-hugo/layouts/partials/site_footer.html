@@ -1,45 +1,43 @@
 <footer class="site-footer">
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 mb-4 mb-md-0">
-        {{ with site.GetPage "privacy.md" }}
-        <p class="powered-by">
-          {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
-        </p>
-        {{ end }}
-        <p class="mb-0" style="text-align:center;">
-          {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
-          Site réalisé à partir du thème :
-          <a href="https://themes.gohugo.io/themes/academia-hugo/" target="_blank" rel="noopener">Academia Hugo</a>.
-        </p>
-        <p style="text-align:center;">Code source modifié par <i style="color:#ffb92c;">Léa JEAN</i> et <i
-          style="color:#ffb92c;">Habib BELARIBI</i>.</p>
-        <p style="text-align:center;">Style modifié par <i style="color:#ffb92c;">Adélaïde LOUIS</i></p>
-      </div>
-      <div class="col-md-6">
-        <ul class="list-inline network-icon text-right mb-0">
-          {{/* Contact links. */}}
-          {{ range site.Params.contact_links }}
-          {{ $pack := or .icon_pack "fas" }}
-          {{ $pack_prefix := $pack }}
-          {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-          {{ $pack_prefix = "fa" }}
-          {{ end }}
-          {{ $link := .link }}
-          {{ $scheme := (urls.Parse $link).Scheme }}
-          {{ $target := "" }}
-          {{ if not $scheme }}
-          {{ $link = .link | relLangURL }}
-          {{ else if in (slice "http" "https") $scheme }}
-          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-          {{ end }}
-          <li class="list-inline-item">
-            <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} title="{{.name}}"><i
-              class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}" aria-hidden="true"></i></a>
-          </li>
-          {{ end }}
-        </ul>
-      </div>
+    <div class="container">
+        <div class="col align-items-center">
+            <ul class="list-inline network-icon text-center mb-0">
+                {{/* Contact links. */}}
+                {{ range site.Params.contact_links }}
+                {{ $pack := or .icon_pack "fas" }}
+                {{ $pack_prefix := $pack }}
+                {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+                {{ $pack_prefix = "fa" }}
+                {{ end }}
+                {{ $link := .link }}
+                {{ $scheme := (urls.Parse $link).Scheme }}
+                {{ $target := "" }}
+                {{ if not $scheme }}
+                {{ $link = .link | relLangURL }}
+                {{ else if in (slice "http" "https") $scheme }}
+                {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+                {{ end }}
+                <li class="list-inline-item">
+                    <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} title="{{.name}}"><i
+                            class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }}" aria-hidden="true"></i></a>
+                </li>
+                {{ end }}
+            </ul>
+            {{ with site.GetPage "privacy.md" }}
+            <p class="powered-by">
+                {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+            </p>
+            {{ end }}
+            <p class="mb-0" style="text-align:center;">
+                {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} &middot; {{ end }}
+                Site réalisé à partir du thème :
+                <a href="https://themes.gohugo.io/themes/academia-hugo/" target="_blank" rel="noopener">Academia
+                    Hugo</a>.
+            </p>
+            <p style="text-align:center;">Code source modifié par <i style="color:#ffb92c;">Léa JEAN</i> et <i
+                    style="color:#ffb92c;">Habib BELARIBI</i>.<br> Style modifié par <i style="color:#ffb92c;">Adélaïde
+                LOUIS</i></p>
+
+        </div>
     </div>
-  </div>
 </footer>

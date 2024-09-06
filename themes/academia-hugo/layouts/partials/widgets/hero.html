@@ -2,87 +2,93 @@
 {{ $page := .page }}
 {{ $bg := $page.Params.design.background }}
 
-<div class="w-50 d-flex flex-column ">
-  {{ if $page.Params.title}}
-  <h1>{{ $page.Params.title}} </h1>
-  {{ end }}
+<div class="hero_container w-50 d-flex flex-column ">
+    {{ if $page.Params.title}}
+    <h1>{{ $page.Params.title}} </h1>
+    {{ end }}
 
-  {{ if $page.Params.subtitle}}
-  <h2>{{ $page.Params.subtitle}} </h2>
-  {{ end }}
+    {{ if $page.Params.subtitle}}
+    <h2>{{ $page.Params.subtitle}} </h2>
+    {{ end }}
 
-  {{ if $page.Params.description}}
-  <p>{{ $page.Params.description}} </p>
-  {{ end }}
+    {{ if $page.Params.description}}
+    <p>{{ $page.Params.description}} </p>
+    {{ end }}
 </div>
 
 {{ if $page.Params.hero_media }}
 <div class="row">
-  <div class="col-md-6 order-md-1 text-center text-md-left align-self-center">
-    {{ end }}
+    <div class="col-md-6 order-md-1 text-center text-md-left align-self-center">
+        {{ end }}
 
-    {{ with $page.Content }}
+        {{ with $page.Content }}
 
-    <div>{{ . }}</div>
-    {{ end }}
-    <h2>{{ $page.Params.titleHero}} </h2>
+        <div>{{ . }}</div>
+        {{ end }}
+        <h2>{{ $page.Params.titleHero}} </h2>
 
-    {{/* Call-to-action link */}}
-    {{ if $page.Params.btn.url }}
-    {{ $pack := or $page.Params.btn.icon_pack "fas" }}
-    {{ $pack_prefix := $pack }}
-    {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-    {{ $pack_prefix = "fa" }}
-    {{ end }}
-    {{ $link := $page.Params.btn.url }}
-    {{ $scheme := (urls.Parse $link).Scheme }}
-    {{ $target := "" }}
-    {{ if not $scheme }}
-    {{ $link = $link | relLangURL }}
-    {{ else if in (slice "http" "https") $scheme }}
-    {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-    {{ end }}
-    <p class="mt-4">
-      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}
-         class="btn {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg  page-scroll">{{ if
-        $page.Params.btn.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.btn.icon }} mr-2"
-                                   aria-hidden="true"></i>{{end}}{{ $page.Params.btn.label | markdownify | emojify |
-        safeHTML }}</a>
+        {{/* Call-to-action link */}}
+        {{ if $page.Params.btn.url }}
+        {{ $pack := or $page.Params.btn.icon_pack "fas" }}
+        {{ $pack_prefix := $pack }}
+        {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+        {{ $pack_prefix = "fa" }}
+        {{ end }}
+        {{ $link := $page.Params.btn.url }}
+        {{ $scheme := (urls.Parse $link).Scheme }}
+        {{ $target := "" }}
+        {{ if not $scheme }}
+        {{ $link = $link | relLangURL }}
+        {{ else if in (slice "http" "https") $scheme }}
+        {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+        {{ end }}
+        <p class="mt-4">
+            <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}
+               class="btn {{if $bg.text_color_light}}btn-light{{else}}btn-primary{{end}} btn-lg  page-scroll">{{ if
+                $page.Params.btn.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.btn.icon }} mr-2"
+                                           aria-hidden="true"></i>{{end}}{{ $page.Params.btn.label | markdownify |
+                emojify |
+                safeHTML }}</a>
 
-      {{/* Alternative Call-to-action link */}}
-      {{ if $page.Params.btn_alt.url }}
-      {{ $link := $page.Params.btn_alt.url }}
-      {{ $scheme := (urls.Parse $link).Scheme }}
-      {{ $target := "" }}
-      {{ if not $scheme }}
-      {{ $link = $link | relLangURL }}
-      {{ else if in (slice "http" "https") $scheme }}
-      {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-      {{ end }}
-      <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}
-         class="btn btn-lg {{if $bg.text_color_light}}btn-outline-light{{else}}btn-outline-primary{{end}} page-scroll">{{
-        if $page.Params.btn_alt.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.btn_alt.icon }} mr-2"
-                                          aria-hidden="true"></i>{{end}}{{ $page.Params.btn_alt.label | markdownify |
-        emojify | safeHTML }}</a>
-      {{ end }}
-    </p>
-    {{ end }}
+            {{/* Alternative Call-to-action link */}}
+            {{ if $page.Params.btn_alt.url }}
+            {{ $link := $page.Params.btn_alt.url }}
+            {{ $scheme := (urls.Parse $link).Scheme }}
+            {{ $target := "" }}
+            {{ if not $scheme }}
+            {{ $link = $link | relLangURL }}
+            {{ else if in (slice "http" "https") $scheme }}
+            {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+            {{ end }}
+            <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}
+               class="btn btn-lg {{if $bg.text_color_light}}btn-outline-light{{else}}btn-outline-primary{{end}} page-scroll">{{
+                if $page.Params.btn_alt.icon }}<i
+                        class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.btn_alt.icon }} mr-2"
+                        aria-hidden="true"></i>{{end}}{{ $page.Params.btn_alt.label | markdownify |
+                emojify | safeHTML }}</a>
+            {{ end }}
+        </p>
+        {{ end }}
 
-    {{/* Hero image */}}
-    {{ if $page.Params.hero_media }}
-  </div>
-  <div class="col-10 mx-auto col-md-6 order-md-2 hero-media">
-    <img class="hero-img img-fluid" src="{{ printf " img/%s" $page.Params.hero_media | relURL }}" alt="">
-  </div>
+        {{/* Hero image */}}
+        {{ if $page.Params.hero_media }}
+    </div>
+    <div class="col-10 mx-auto col-md-6 order-md-2 hero-media">
+        <img class="hero-img img-fluid" src="{{ printf " img/%s" $page.Params.hero_media | relURL }}" alt="">
+    </div>
 </div>
 {{ end }}
 
-<div class="w-50 btn-position">
-  <a href="#about" class="btn text-white btn-lg page-scroll d-flex flex-column">
-      <p>
-        Voir mon portfolio
-      </p>
-    <i
-      class="fas fa-chevron-down fa-2x"></i>
-  </a>
+<div class="btn-position-scroll">
+    <a href="#about" class="btn text-white btn-lg page-scroll d-flex flex-column">
+        <p>
+            Découvrir mon portfolio
+        </p>
+        <i
+                class="fas fa-chevron-down fa-2x"></i>
+    </a>
 </div>
+
+<style lang="scss">
+
+</style>

@@ -31,7 +31,7 @@ Un brainstorming entre les membres de l'équipe est organisé durant lequel plus
 
 La première solution utilise une vis sans fin. Le bonbon est entrainé par la vis sans fin en rotation, voyageant dans son filet jusqu'à la sortie.
 
-![Solution1](/portfolios/lea-jean/img/sol1.jpg "Solution utilisant une vis sans fin")
+![Solution1](/lea_jean/img/sol1.jpg "Solution utilisant une vis sans fin")
 
 L'avantage de ce système est qu'il est peut encombrant. En revanche, la roue sans fin est difficile à usiner et un problème de positionnement et d'orientation du bonbon peut survenir.
 
@@ -39,7 +39,7 @@ L'avantage de ce système est qu'il est peut encombrant. En revanche, la roue sa
 
 La deuxième solution utilise une roue encochée. Cette dernière est enfermée dans un boitier. Le bonbon est pris dans l'encoche en entrée, la roue tourne et le bonbon est libéré en sortie. 
 
-![Solution2](/portfolios/lea-jean/img/sol2.jpg "Solution utilisant une roue encochée")
+![Solution2](/lea_jean/img/sol2.jpg "Solution utilisant une roue encochée")
 
 Le système est un peu encombrant mais est simple et l'intervalle de temps de chute des bonbons est facilement ajustable.
 
@@ -47,7 +47,7 @@ Le système est un peu encombrant mais est simple et l'intervalle de temps de ch
 
 La troisième solution pensée fonctionne avec un système de bielle manivelle. Une tige poussoir est fixé au mécanisme bielle / manivelle. Ainsi, le bonbon est libéré puis poussé par la tige dans l'orifice de sortie tout en bloquant le bonbon suivant.
 
-![Solution3](/portfolios/lea-jean/img/sol3.jpg "Solution utilisant une bielle/manivelle")
+![Solution3](/lea_jean/img/sol3.jpg "Solution utilisant une bielle/manivelle")
 
 Le mécanisme est facilement réalisable mais gérer la course du poussoir peut être une difficulté.
 
@@ -55,7 +55,7 @@ Le mécanisme est facilement réalisable mais gérer la course du poussoir peut 
 
 Il convient de réaliser le dessin d'ensemble du système et les dessins de définition des pièces, notamment de la roue encochée et des arbres de trasmissions. Un dessin du sous-ensemble de transmission est également réalisé.
 
-![Dessin d'ensemble](/portfolios/lea-jean/img/dess-ens.jpg "Dessin d'ensemble du distributeur")
+![Dessin d'ensemble](/lea_jean/img/dess-ens.jpg "Dessin d'ensemble du distributeur")
 
 ## Fabrication
 
@@ -84,7 +84,7 @@ On assemble le système.
 
 |||
 | :--- | :--- |
-| ![Assemblage](/portfolios/lea-jean/img/assemblage1.jpg "Roue encochée et du système de transmission assemblés") | ![Assemblage](/portfolios/lea-jean/img/distributeur.jpg "Distributeur assemblé") |
+| ![Assemblage](/lea_jean/img/assemblage1.jpg "Roue encochée et du système de transmission assemblés") | ![Assemblage](/lea_jean/img/distributeur.jpg "Distributeur assemblé") |
 
 ## Tests
 

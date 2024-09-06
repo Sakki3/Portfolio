@@ -18,25 +18,21 @@ subtitle = "COMMUNICATION"
   icon = "comment-alt"
   icon_pack = "fas"
   name = "Former un public et transmettre des connaissances"
-  parcent = "75%"
 
 [[feature]]
   icon = "comments"
   icon_pack = "fas"
   name = "Informer un public et présenter un sujet"
-  parcent = "70%"
   
  [[feature]]
   icon = "edit"
   icon_pack = "fas"
   name = "Documenter (un projet par exemple) et rédiger une procédure"
-  parcent = "85%"
   
   [[feature]]
   icon = "file-video"
   icon_pack = "fas"
   name = "Communiquer à travers un montage vidéo ou un montage photo"
-  parcent = "85%"
 
 +++
 

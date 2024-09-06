@@ -18,31 +18,26 @@ subtitle = "MACHINES DE FABRICATION"
   icon = "tools"
   icon_pack = "fas"
   name = "Machines conventionnelles (fraiseuse, tour, perceuse à colonne...)"
-  parcent = "90%"
   
 [[feature]]
   icon = "tools"
   icon_pack = "fas"
   name = "Fraiseuse CNC Charly Robot"
-  parcent = "90%"
   
 [[feature]]
   icon = "tools"
   icon_pack = "fas"
   name = "Centre d'usinage CNC"
-  parcent = "75%"
   
 [[feature]]
   icon = "tools"
   icon_pack = "fas"
   name = "Découpe laser"
-  parcent = "95%"
 
 [[feature]]
   icon = "tools"
   icon_pack = "fas"
   name = "Imprimante 3D à filament"
-  parcent = "95%"
 
 +++
 
