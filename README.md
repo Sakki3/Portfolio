@@ -2,6 +2,8 @@
 
 <img src="static/img/Avatar.png" alt="Avatar dessiné par Léa JEAN" width="200"/>
 
+Le site est accessible via ce [lien](https://sakki3.github.io/Portfolio/)
+
 ## 🔧 Développement
 
 1. Cloner ce dépot
