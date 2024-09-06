@@ -2,85 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Léa JEAN</title>
-    <link>//localhost:1313/lea_jean/tags/</link>
+    <link>//localhost:1313/Portfolio/tags/</link>
     <description>Recent content in Tags on Léa JEAN</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>fr-fr</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="//localhost:1313/lea_jean/tags/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="//localhost:1313/Portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Perso</title>
-      <link>//localhost:1313/lea_jean/tags/perso/</link>
+      <link>//localhost:1313/Portfolio/tags/perso/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/lea_jean/tags/perso/</guid>
+      <guid>//localhost:1313/Portfolio/tags/perso/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gmp</title>
-      <link>//localhost:1313/lea_jean/tags/gmp/</link>
+      <link>//localhost:1313/Portfolio/tags/gmp/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/lea_jean/tags/gmp/</guid>
+      <guid>//localhost:1313/Portfolio/tags/gmp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rob</title>
-      <link>//localhost:1313/lea_jean/tags/rob/</link>
+      <link>//localhost:1313/Portfolio/tags/rob/</link>
       <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/lea_jean/tags/rob/</guid>
+      <guid>//localhost:1313/Portfolio/tags/rob/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Com-Trans</title>
-      <link>//localhost:1313/lea_jean/tags/com-trans/</link>
+      <link>//localhost:1313/Portfolio/tags/com-trans/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/lea_jean/tags/com-trans/</guid>
+      <guid>//localhost:1313/Portfolio/tags/com-trans/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Fab</title>
-      <link>//localhost:1313/lea_jean/tags/fab/</link>
+      <link>//localhost:1313/Portfolio/tags/fab/</link>
       <pubDate>Tue, 01 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/lea_jean/tags/fab/</guid>
+      <guid>//localhost:1313/Portfolio/tags/fab/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lycee</title>
-      <link>//localhost:1313/lea_jean/tags/lycee/</link>
+      <link>//localhost:1313/Portfolio/tags/lycee/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/lea_jean/tags/lycee/</guid>
+      <guid>//localhost:1313/Portfolio/tags/lycee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Source Themes</title>
-      <link>//localhost:1313/lea_jean/tags/source-themes/</link>
+      <link>//localhost:1313/Portfolio/tags/source-themes/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/lea_jean/tags/source-themes/</guid>
+      <guid>//localhost:1313/Portfolio/tags/source-themes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Academia</title>
-      <link>//localhost:1313/lea_jean/tags/academia/</link>
+      <link>//localhost:1313/Portfolio/tags/academia/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/lea_jean/tags/academia/</guid>
+      <guid>//localhost:1313/Portfolio/tags/academia/</guid>
       <description></description>
     </item>
     

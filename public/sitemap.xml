@@ -2,180 +2,180 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/lea_jean/courses/example/example1/</loc>
+    <loc>//localhost:1313/Portfolio/courses/example/example1/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/courses/example.1/example3/</loc>
+    <loc>//localhost:1313/Portfolio/courses/example.1/example3/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/courses/example.2/example3/</loc>
+    <loc>//localhost:1313/Portfolio/courses/example.2/example3/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/courses/example.1/</loc>
+    <loc>//localhost:1313/Portfolio/courses/example.1/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/courses/example.2/</loc>
+    <loc>//localhost:1313/Portfolio/courses/example.2/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/courses/example/</loc>
+    <loc>//localhost:1313/Portfolio/courses/example/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/courses/example.2/example4/</loc>
+    <loc>//localhost:1313/Portfolio/courses/example.2/example4/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/courses/example/example2/</loc>
+    <loc>//localhost:1313/Portfolio/courses/example/example2/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/courses/example.1/example4/</loc>
+    <loc>//localhost:1313/Portfolio/courses/example.1/example4/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/talk/coding/</loc>
+    <loc>//localhost:1313/Portfolio/talk/coding/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/</loc>
+    <loc>//localhost:1313/Portfolio/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/talk/qualitative/</loc>
+    <loc>//localhost:1313/Portfolio/talk/qualitative/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/talk/</loc>
+    <loc>//localhost:1313/Portfolio/talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/talk/synthesizing/</loc>
+    <loc>//localhost:1313/Portfolio/talk/synthesizing/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/lampes/</loc>
+    <loc>//localhost:1313/Portfolio/project/lampes/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/tags/perso/</loc>
+    <loc>//localhost:1313/Portfolio/tags/perso/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/</loc>
+    <loc>//localhost:1313/Portfolio/project/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/tags/</loc>
+    <loc>//localhost:1313/Portfolio/tags/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/tags/gmp/</loc>
+    <loc>//localhost:1313/Portfolio/tags/gmp/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/main/</loc>
+    <loc>//localhost:1313/Portfolio/project/main/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/kapla/</loc>
+    <loc>//localhost:1313/Portfolio/project/kapla/</loc>
     <lastmod>2022-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/tags/rob/</loc>
+    <loc>//localhost:1313/Portfolio/tags/rob/</loc>
     <lastmod>2022-02-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/acc-fablab/</loc>
+    <loc>//localhost:1313/Portfolio/project/acc-fablab/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/boite-a-bijoux/</loc>
+    <loc>//localhost:1313/Portfolio/project/boite-a-bijoux/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/tags/com-trans/</loc>
+    <loc>//localhost:1313/Portfolio/tags/com-trans/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/tags/fab/</loc>
+    <loc>//localhost:1313/Portfolio/tags/fab/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/habibstove/</loc>
+    <loc>//localhost:1313/Portfolio/project/habibstove/</loc>
     <lastmod>2022-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/tags/lycee/</loc>
+    <loc>//localhost:1313/Portfolio/tags/lycee/</loc>
     <lastmod>2022-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/sunny/</loc>
+    <loc>//localhost:1313/Portfolio/project/sunny/</loc>
     <lastmod>2022-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/ribo/</loc>
+    <loc>//localhost:1313/Portfolio/project/ribo/</loc>
     <lastmod>2022-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/scanner-3d/</loc>
+    <loc>//localhost:1313/Portfolio/project/scanner-3d/</loc>
     <lastmod>2022-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/support-boisson/</loc>
+    <loc>//localhost:1313/Portfolio/project/support-boisson/</loc>
     <lastmod>2022-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/distributeur/</loc>
+    <loc>//localhost:1313/Portfolio/project/distributeur/</loc>
     <lastmod>2022-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/robocup/</loc>
+    <loc>//localhost:1313/Portfolio/project/robocup/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/tpe/</loc>
+    <loc>//localhost:1313/Portfolio/project/tpe/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/tutorat/</loc>
+    <loc>//localhost:1313/Portfolio/project/tutorat/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/wall-e/</loc>
+    <loc>//localhost:1313/Portfolio/project/wall-e/</loc>
     <lastmod>2021-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/project/plaque-boite-aux-lettres/</loc>
+    <loc>//localhost:1313/Portfolio/project/plaque-boite-aux-lettres/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/courses/</loc>
+    <loc>//localhost:1313/Portfolio/courses/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/authors/admin/</loc>
+    <loc>//localhost:1313/Portfolio/authors/admin/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/publication_types/3/</loc>
+    <loc>//localhost:1313/Portfolio/publication_types/3/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/publication/preprint/</loc>
+    <loc>//localhost:1313/Portfolio/publication/preprint/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/authors/</loc>
+    <loc>//localhost:1313/Portfolio/authors/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/publication_types/</loc>
+    <loc>//localhost:1313/Portfolio/publication_types/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/publication/</loc>
+    <loc>//localhost:1313/Portfolio/publication/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/tags/source-themes/</loc>
+    <loc>//localhost:1313/Portfolio/tags/source-themes/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/post/jupyter/</loc>
+    <loc>//localhost:1313/Portfolio/post/jupyter/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/post/</loc>
+    <loc>//localhost:1313/Portfolio/post/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/slides/</loc>
+    <loc>//localhost:1313/Portfolio/slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/slides/example/</loc>
+    <loc>//localhost:1313/Portfolio/slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/post/snail/</loc>
+    <loc>//localhost:1313/Portfolio/post/snail/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/tags/academia/</loc>
+    <loc>//localhost:1313/Portfolio/tags/academia/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/post/getting-started/</loc>
+    <loc>//localhost:1313/Portfolio/post/getting-started/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/publication_types/2/</loc>
+    <loc>//localhost:1313/Portfolio/publication_types/2/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/publication/journal-article/</loc>
+    <loc>//localhost:1313/Portfolio/publication/journal-article/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/authors/robert-ford/</loc>
+    <loc>//localhost:1313/Portfolio/authors/robert-ford/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/publication_types/1/</loc>
+    <loc>//localhost:1313/Portfolio/publication_types/1/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/publication/conference-paper/</loc>
+    <loc>//localhost:1313/Portfolio/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/lea_jean/categories/</loc>
+    <loc>//localhost:1313/Portfolio/categories/</loc>
   </url>
 </urlset>

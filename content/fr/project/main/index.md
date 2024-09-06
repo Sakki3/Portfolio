@@ -37,7 +37,7 @@ On procède à une **analyse fonctionnelle**.
 
 On établit une *bête à corne* qui illustre le besoin du système. 
 
-![Bête à corne](/lea_jean/img/bac.png "Bête à corne")
+![Bête à corne](/Portfolio/img/bac.png "Bête à corne")
 
 La main articulée devra :
 - bouger selon les commandes de l’utilisateur via des commandes extérieures à la main, commandes mécaniques mais qui peuvent évoluer sur des commandes électriques ;
@@ -54,11 +54,11 @@ On établit ainsi les fonctions de service et les fonctions contraintes du syst�
 |             | Ca3 : S’adapter au public |
 |             | Ca4 : S’adapter à l’environnement |
 
-![Diagramme pieuvre](/lea_jean/img/diag-pieuvre.png "Diagramme pieuvre")
+![Diagramme pieuvre](/Portfolio/img/diag-pieuvre.png "Diagramme pieuvre")
 
 On regroupe le **besoin fondamental**, les **fonctions services** et les **contraintes d'adaptation** dans un diagramme FAST.
 
-![FAST](/lea_jean/img/FAST.png "FAST")
+![FAST](/Portfolio/img/FAST.png "FAST")
 
 Contraintes générales : 
 - Le système doit être défini dans un format A4 ; 

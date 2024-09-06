@@ -35,24 +35,24 @@ La machine a directement été déplacée au Fablab pour pouvoir plus confortabl
 
 Lorsque nous étions dans les locaux de Bordeaux Sciences Agro, nous avons contraint la pièce pour déboulonner au-dessous et pouvoir sortir le disque auquel la pièce est fixé, pour finalement pouvoir enlerver la vis plus facilement. Le risque d'abîmer plus la pièce a été pris car cette dernière ayant une forme simple et répétitive, nous avons jugé que ce n'était pas un problème pour la modélisation de celle-ci.
 
-![La pièce à remplacer est coincée par la vis](/lea_jean/img/ribo1.jpg "La pièce à remplacer est coincée par la vis")
+![La pièce à remplacer est coincée par la vis](/Portfolio/img/ribo1.jpg "La pièce à remplacer est coincée par la vis")
 
 Cependant, l'opération n'a pas fonctionné car l'axe tourne simultanément. Il faut donc le maintenir lors du dé-assemblage. Les moyens sur place et le temps nous limitant, la décision a été prise d'amener la machine dans les locaux du Fablab afin de pouvoir prendre le temps d'extraire la pièce en essayant de ne pas trop endommager les vis.
 
 Nous avons dévissé la pièce verte du carter ce qui nous a permis de sortir l'ensemble motorisé et ainsi de maintenir l'axe du rotor pour déboulonner au dessus de la pièce bleue. Nous avons ensuite détaché le ressort de la pièce bleue puis la pièce bleue de l'axe du rotor.
 
-![Ensemble motorisé](/lea_jean/img/ribo2.jpg "Ensemble motorisé") 
-![Pièce bleue et pièce à remplacer extraites](/lea_jean/img/ribo3.jpg "Pièce bleue et pièce à remplacer extraites (vue du dessus à gauche et du dessous à droite)")
+![Ensemble motorisé](/Portfolio/img/ribo2.jpg "Ensemble motorisé") 
+![Pièce bleue et pièce à remplacer extraites](/Portfolio/img/ribo3.jpg "Pièce bleue et pièce à remplacer extraites (vue du dessus à gauche et du dessous à droite)")
 
 La pièce à remplacer n'étant plus fixée à la machine et les éléments autour ayant été limités, nous avons une meilleure vision de la manière de procéder pour l'extraction de cette pièce et cette opération sera menée de manière plus confortable avec moins de risques d'endommager une pièce.
 
 Après observation, il a été constaté que le pas de vis est endommagé. La vis a été sciée et la pièce libérée. 
 
-![Pièce à remplacer](/lea_jean/img/ribo4.jpg "Pièce à remplacer") 
+![Pièce à remplacer](/Portfolio/img/ribo4.jpg "Pièce à remplacer") 
 
 Pour remplacer la vis endommagée, ses dimensions ont été prises. Nous avons pu ensuite en commander de nouvelles.
 
-![Vis](/lea_jean/img/visribo.jpg "Dessin de définition de la vis (à gauche) et nouvelles vis commandée (à droite)") 
+![Vis](/Portfolio/img/visribo.jpg "Dessin de définition de la vis (à gauche) et nouvelles vis commandée (à droite)") 
 
 Le diamètre de la tête de la nouvelle vis est supérieur de 1 mm au diamètre requis. Au tour conventionnel, on effectue un chariotage de la tête de vis pour l'ajuster. On chariote ensuite le filet vers le bout de la vis en utilisant un outil à tronçonner. Lors du test de la vis dans l'assemblage, il est observé qu'il faut forcer pour visser. On suppose que le problème vient du pas de vis. Ainsi, on procède à l'ajustage à l'aide d'un taraud pour la vis et d'une filière pour le trou qui l'accueillera. Un test est de nouveau effectué et l'assemblage est validé. Enfin, on colle le capuchon orange à la vis.
 
@@ -60,11 +60,11 @@ Le diamètre de la tête de la nouvelle vis est supérieur de 1 mm au diamètre 
 
 Il s'agit d'une pièce qui sera très contrainte et qui doit résister en fatigue. Le département SGM de l'IUT de Bordeaux nous a ainsi fourni des bruts de polyéthylène.
 
-![Brut](/lea_jean/img/brutribo.jpg "Bruts fournis par le département SGM") 
+![Brut](/Portfolio/img/brutribo.jpg "Bruts fournis par le département SGM") 
 
 Il convient de d'abord modéliser sur FreeCAD la pièce après avoir pris les mesures nécessaires sur la pièce existante.
 
-![Modélisation](/lea_jean/img/piece-poly-V2.png "Modélisation de la pièce à remplacer avec FreeCAD (vue du dessus à gauche et de dessous à droite)") 
+![Modélisation](/Portfolio/img/piece-poly-V2.png "Modélisation de la pièce à remplacer avec FreeCAD (vue du dessus à gauche et de dessous à droite)") 
 
 La première modélisation n'a pas été faite de manière optimale. Ainsi, après avoir reçu des conseils d'une personne expérimentée, une deuxième modélisation de la pièce plus propre est entreprise puis le paramétrage de l'usinage est effectué.
 

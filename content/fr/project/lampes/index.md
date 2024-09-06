@@ -42,16 +42,16 @@ Afin de laisser passer la lumière, l'abat-jour est parsemé de trous de formes 
 
 Les visages gravés et les fleurs et pétales sont dessinés par l'auteur de ce projet via [Krita](https://krita.org/fr/), un logiciel de dessin. Le reste des dessins sont pris sur Internet. Certains de ces dessins ont été modifiés avec [Inkscape](https://inkscape.org/fr/) pour obtenir un orifice d'une forme adéquate.
 
-|                         Exemple d'une image modifiée :                          |                                                   |
-|:-------------------------------------------------------------------------------:|:-------------------------------------------------:|
-|               ![lampe1](/lea_jean/img/fee.jpg "Image d'origine")                |![lampe1](/lea_jean/img/fee3.png "Image modifiée") |
-|[Image d'origine](https://m.media-amazon.com/images/I/61yB8rinC2L._AC_SS450_.jpg)|                  Image modifiée                   |
+|                          Exemple d'une image modifiée :                           |                                                   |
+|:---------------------------------------------------------------------------------:|:-------------------------------------------------:|
+|                ![lampe1](/Portfolio/img/fee.jpg "Image d'origine")                |![lampe1](/Portfolio/img/fee3.png "Image modifiée") |
+| [Image d'origine](https://m.media-amazon.com/images/I/61yB8rinC2L._AC_SS450_.jpg) |                  Image modifiée                   |
 
 Toutes les décorations sont importées sur le fichier contenant le dessin de la structure en bois puis placées. Ces dessins sont préparés pour pouvoir passer à la découpe laser.
 
 |||
 |:---:|:---:|
-|![lampe1](/lea_jean/img/fichier-decoupe-lampe.png "Fichier de découpe de l'abat-jour de la lampe 1")|![lampe1](/lea_jean/img/fichier-decoupe-lampe2.png "Fichier de découpe de l'abat-jour de la lampe 2")|
+|![lampe1](/Portfolio/img/fichier-decoupe-lampe.png "Fichier de découpe de l'abat-jour de la lampe 1")|![lampe1](/Portfolio/img/fichier-decoupe-lampe2.png "Fichier de découpe de l'abat-jour de la lampe 2")|
 |Fichier de découpe de l'abat-jour de la lampe 1|Fichier de découpe de l'abat-jour de la lampe 2|
 
 ## Fabrication
@@ -64,12 +64,12 @@ Les formes découpées sont enlevées soigneusement et mises de côté. Un messa
 
 |||
 |---:|:---|
-|![lampe1](/lea_jean/img/lampefam1.jpg "Lampe 1") |![lampe1](/lea_jean/img/lampefam2.jpg "Lampe 1") |
+|![lampe1](/Portfolio/img/lampefam1.jpg "Lampe 1") |![lampe1](/Portfolio/img/lampefam2.jpg "Lampe 1") |
 |Lampe 1|fabriquée|
 
 Enfin, on insert la guirlande lumineuse à l'intérieur de la structure et on l'arrange. Sont utilisées ici des guirlandes à 50 leds.
 
 |||
 |---:|:---|
-|![lampe1](/lea_jean/img/lampefam3.jpg "Lampe 1") |![lampe1](/lea_jean/img/lampefam4.jpg "Lampe 1") |
+|![lampe1](/Portfolio/img/lampefam3.jpg "Lampe 1") |![lampe1](/Portfolio/img/lampefam4.jpg "Lampe 1") |
 |Lampe 1|avec la guirlande|

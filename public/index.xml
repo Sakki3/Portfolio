@@ -2,67 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Léa JEAN</title>
-    <link>//localhost:1313/lea_jean/</link>
+    <link>//localhost:1313/Portfolio/</link>
     <description>Recent content on Léa JEAN</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>fr-fr</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="//localhost:1313/lea_jean/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="//localhost:1313/Portfolio/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>//localhost:1313/lea_jean/talk/</link>
+      <link>//localhost:1313/Portfolio/talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/lea_jean/talk/</guid>
+      <guid>//localhost:1313/Portfolio/talk/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Projects</title>
-      <link>//localhost:1313/lea_jean/project/</link>
+      <link>//localhost:1313/Portfolio/project/</link>
       <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/lea_jean/project/</guid>
+      <guid>//localhost:1313/Portfolio/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Courses</title>
-      <link>//localhost:1313/lea_jean/courses/</link>
+      <link>//localhost:1313/Portfolio/courses/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       
-      <guid>//localhost:1313/lea_jean/courses/</guid>
+      <guid>//localhost:1313/Portfolio/courses/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Publications</title>
-      <link>//localhost:1313/lea_jean/publication/</link>
+      <link>//localhost:1313/Portfolio/publication/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/lea_jean/publication/</guid>
+      <guid>//localhost:1313/Portfolio/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>//localhost:1313/lea_jean/post/</link>
+      <link>//localhost:1313/Portfolio/post/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/lea_jean/post/</guid>
+      <guid>//localhost:1313/Portfolio/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Slides</title>
-      <link>//localhost:1313/lea_jean/slides/</link>
+      <link>//localhost:1313/Portfolio/slides/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/lea_jean/slides/</guid>
+      <guid>//localhost:1313/Portfolio/slides/</guid>
       <description></description>
     </item>
     

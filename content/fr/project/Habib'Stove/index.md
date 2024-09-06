@@ -23,7 +23,7 @@ Le poêle de masse rocket est un type de foyer à bois performant. Il est appel�
 
 ||
 |:---:|
-|![Rocket Stove](/lea_jean/img/rocket.jpg "Coupe transversale d'un poêle de masse Rocket")|
+|![Rocket Stove](/Portfolio/img/rocket.jpg "Coupe transversale d'un poêle de masse Rocket")|
 |**Coupe transversale d'un poêle de masse Rocket "fixe", source [Wikipedia](https://fr.wikipedia.org/wiki/Fichier:Rocket-coupe-transversale.jpg)**|
 
 
@@ -41,7 +41,7 @@ Librement inspirée, cette variante de conception du poêle vise à récupérer 
 
 |||
 |:---:|:---:|
-|![Schéma descriptif du Habib'Stove](/lea_jean/img/Schema-description-habib-stove.png "Schéma descriptif du Habib'Stove")|![Schéma du parcours des flux](/lea_jean/img/Schema-flux-habib-stove.png "Schéma du parcours des flux du Habib'Stove")|
+|![Schéma descriptif du Habib'Stove](/Portfolio/img/Schema-description-habib-stove.png "Schéma descriptif du Habib'Stove")|![Schéma du parcours des flux](/Portfolio/img/Schema-flux-habib-stove.png "Schéma du parcours des flux du Habib'Stove")|
 |**Schéma descriptif du Habib'Stove**|**Schéma du parcours des flux du Habib'Stove**|
 
 ### Réalisation
@@ -50,12 +50,12 @@ La structure en béton réfractaire se moule avec des morceaux de polystyrène. 
 
 |||
 |:---:|:---:|
-|![Découpe](/lea_jean/img/decoupe-hab2.gif "Morceau de polystyrène découpé par un fil chaud en suivant la forme des guides")|![Découpe](/lea_jean/img/decoupe-hab1.gif "Morceau de polystyrène découpé par un fil chaud en épaisseur")|
+|![Découpe](/Portfolio/img/decoupe-hab2.gif "Morceau de polystyrène découpé par un fil chaud en suivant la forme des guides")|![Découpe](/Portfolio/img/decoupe-hab1.gif "Morceau de polystyrène découpé par un fil chaud en épaisseur")|
 |**Morceau de polystyrène découpé par un fil chaud en suivant la forme des guides**|**Morceau de polystyrène découpé par un fil chaud en épaisseur**|
 
 ||||
 |:---:|:---:|:---:|
-|![Découpe](/lea_jean/img/guides3.png "Guides en MDF découpés à la découpe laser")|![Découpe](/lea_jean/img/poly-guides.png "Morceau de polystyrène découpé au fil chaud suivant la forme de guides")|![Découpe](/lea_jean/img/poly3.png "Morceaux de polystyrène découpés au fil chaud")|
+|![Découpe](/Portfolio/img/guides3.png "Guides en MDF découpés à la découpe laser")|![Découpe](/Portfolio/img/poly-guides.png "Morceau de polystyrène découpé au fil chaud suivant la forme de guides")|![Découpe](/Portfolio/img/poly3.png "Morceaux de polystyrène découpés au fil chaud")|
 |**Guides en MDF découpés à la découpe laser**|**Morceau de polystyrène découpé au fil chaud suivant la forme de guides**|**Morceaux de polystyrène découpés au fil chaud**|
 
 Des "joues", aussi découpées au fil chaud, sont collées sur "l'escargot" en polystyrène. Cela permettra à l'air de passer. Cet air va se réchauffer dans la paroi et permettre au gaz qui n'est pas pas assez chaud pour brûler de s'enflammer.
@@ -65,7 +65,7 @@ La structure en béton réfractaire est stockée dans une boîte découpée à l
 
 |||
 |:---:|:---:|
-|![Boîte](/lea_jean/img/hs-1.jpg "Montage de la boîte")|![Boîte](/lea_jean/img/hs-2.jpg "Boîte assemblée et simulation de la disposition des morceaux de polystyrène")|
+|![Boîte](/Portfolio/img/hs-1.jpg "Montage de la boîte")|![Boîte](/Portfolio/img/hs-2.jpg "Boîte assemblée et simulation de la disposition des morceaux de polystyrène")|
 |**Montage de la boîte**|**Boîte assemblée et simulation de la disposition des morceaux de polystyrène**|
 
 Une fois les pièces en polystyrène prêtes et la boîte assemblée, on va pouvoir préparer le béton.
@@ -74,12 +74,12 @@ Le béton réfractaire est fait à partir d'un mélange de vermiculite (ou perli
 
 ||||||
 |:---:|:---:|:---:|:---:|:---:|
-|![Mélange](/lea_jean/img/hs-3.jpg "Pouzzolane")|![Mélange](/lea_jean/img/hs-4.jpg "Vermiculite ou perlite")|![Mélange](/lea_jean/img/hs-5.jpg "Ajout des ingrédients dans un récipient")|![Mélange](/lea_jean/img/hs-6.jpg "Mélange des indrédients")|![Mélange](/lea_jean/img/hs-7.jpg "Ajout de l'eau lors du mélange")|
+|![Mélange](/Portfolio/img/hs-3.jpg "Pouzzolane")|![Mélange](/Portfolio/img/hs-4.jpg "Vermiculite ou perlite")|![Mélange](/Portfolio/img/hs-5.jpg "Ajout des ingrédients dans un récipient")|![Mélange](/Portfolio/img/hs-6.jpg "Mélange des indrédients")|![Mélange](/Portfolio/img/hs-7.jpg "Ajout de l'eau lors du mélange")|
 |**Pouzzolane**|**Vermiculite ou perlite**|**Ajout des ingrédients dans un récipient**|**Mélange des indrédients**|**Ajout de l'eau lors du mélange**|
 
 Quand le mélange est prêt, on le verse petit à petit dans la boîte en mettant en parallèle les morceaux de polystyrène. Ainsi, le mélange se moule autour du polystyrène. Il faut garder en tête que la structure est moulée à l'envers : le socle de la boîte correspond au haut de la structure. On attend ensuite que le béton se solidifie.
 
 |||
 |:---:|:---:|
-|![Béton](/lea_jean/img/hs-8.jpg "Pose du mélange et du polystyrène dans la boîte")|![Béton](/lea_jean/img/hs-9.jpg "Boîte qui accueille le béton réfractaire")|
+|![Béton](/Portfolio/img/hs-8.jpg "Pose du mélange et du polystyrène dans la boîte")|![Béton](/Portfolio/img/hs-9.jpg "Boîte qui accueille le béton réfractaire")|
 |**Pose du mélange et du polystyrène dans la boîte**|**Boîte qui accueille le béton réfractaire**|

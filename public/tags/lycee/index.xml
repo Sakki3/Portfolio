@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lycee on Léa JEAN</title>
-    <link>//localhost:1313/lea_jean/tags/lycee/</link>
+    <link>//localhost:1313/Portfolio/tags/lycee/</link>
     <description>Recent content in Lycee on Léa JEAN</description>
     <generator>Source Themes academia (https://sourcethemes.com/academic/)</generator>
     <language>fr-fr</language>
     <copyright>Copyright &amp;copy; {year}</copyright>
     <lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate>
     
-	    <atom:link href="//localhost:1313/lea_jean/tags/lycee/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="//localhost:1313/Portfolio/tags/lycee/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Sunny, le tracker solaire</title>
-      <link>//localhost:1313/lea_jean/project/sunny/</link>
+      <link>//localhost:1313/Portfolio/project/sunny/</link>
       <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/lea_jean/project/sunny/</guid>
+      <guid>//localhost:1313/Portfolio/project/sunny/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Sunny le tracker solaire&lt;/strong&gt; est un projet qui est né en 2019 dans le cadre d&amp;rsquo;un projet en groupe pour valider les compétences acquises dans la spécialité &lt;em&gt;Informatique et Créations Numériques&lt;/em&gt; de Terminale S SI. Ainsi, avec deux autres collègues, Adélaïde LOUIS et Yohann VERNHES, nous avons décidé de réaliser un tracker solaire.&lt;/p&gt;
 &lt;p&gt;Notre projet s&amp;rsquo;est construit sur deux axes : d&amp;rsquo;une part la &lt;em&gt;réalisation de Sunny&lt;/em&gt; et d&amp;rsquo;autre part la &lt;em&gt;construction d&amp;rsquo;un site de présentation&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Nous avons d&amp;rsquo;abord fait des recherches sur le fonctionnement d&amp;rsquo;un tracker solaire et sur la trajectoire du soleil. Après avoir discuté sur comment construire le tracker avec nos moyens, nous avons dégagé trois méthodes de fonctionnement.&lt;/p&gt;
@@ -32,10 +32,10 @@ Pour cette méthode, nous nous sommes renseignés sur le fonctionnement des phot
     
     <item>
       <title>TPE - Siège éjectable</title>
-      <link>//localhost:1313/lea_jean/project/tpe/</link>
+      <link>//localhost:1313/Portfolio/project/tpe/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/lea_jean/project/tpe/</guid>
+      <guid>//localhost:1313/Portfolio/project/tpe/</guid>
       <description></description>
     </item>
     

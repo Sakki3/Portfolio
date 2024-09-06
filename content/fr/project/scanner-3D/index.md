@@ -32,7 +32,7 @@ J’ai imprimé le corps en PLA et découpé à la découpe laser la plaque de M
 
 ||||
 |:---:|:---:|:---:|
-|![Support](/lea_jean/img/piece1.jpg "Corps imprimé en PLA")|![Support](/lea_jean/img/piece2.jpg "Corps imprimé en PLA")|![Support](/lea_jean/img/plaque2.jpg "Plaque support en MDF")|
+|![Support](/Portfolio/img/piece1.jpg "Corps imprimé en PLA")|![Support](/Portfolio/img/piece2.jpg "Corps imprimé en PLA")|![Support](/Portfolio/img/plaque2.jpg "Plaque support en MDF")|
 |**Corps imprimé en PLA**|**Corps imprimé en PLA**|**Plaque support en MDF**|
 
 Il y a un décalage de hauteur d'environ 6-7 mm entre l'appareil photo et la plaque support, donc pour qu'il soit parallèle à cette dernière, j’ai découpé de petites cales (dessinées sur Inkscape) de 3 mm que j’ai collées ensemble. La cale a ensuite été collée sur la plaque support.
@@ -41,12 +41,12 @@ Pour garder le tube droit, j’ai modélisé et imprimé un pied. Puis j’ai mo
 
 |||
 |:---:|:---:|
-|![Support](/lea_jean/img/piece-scanner3d.jpg "Pièce qui s'encastre dans le tube")|![Support](/lea_jean/img/pied.jpg "Pied support assemblé")|
+|![Support](/Portfolio/img/piece-scanner3d.jpg "Pièce qui s'encastre dans le tube")|![Support](/Portfolio/img/pied.jpg "Pied support assemblé")|
 |**Pièce qui s'encastre dans le tube**|**Pied support assemblé**|
 
 Après avoir assemblé les pièces du support caméra ensemble, j’ai ensuite assemblé ce dernier avec la plaque tournante.
 
 ||||
 |:---:|:---:|:---:|
-|![Support](/lea_jean/img/support2.jpg "Ensemble plaque tournante/support assemblés")|![Support](/lea_jean/img/scanner.jpg "Ensemble plaque tournante/support assemblés")|![Support](/lea_jean/img/support3.jpg "Ensemble plaque tournante/support assemblés")|
+|![Support](/Portfolio/img/support2.jpg "Ensemble plaque tournante/support assemblés")|![Support](/Portfolio/img/scanner.jpg "Ensemble plaque tournante/support assemblés")|![Support](/Portfolio/img/support3.jpg "Ensemble plaque tournante/support assemblés")|
 |**Ensemble plaque tournante/support assemblés**|**Ensemble plaque tournante/support assemblés**|**Ensemble plaque tournante/support assemblés**|
